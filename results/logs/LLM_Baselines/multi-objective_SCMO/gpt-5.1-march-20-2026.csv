@@ -1,0 +1,1419 @@
+Task,Runtime,gpt-5.1
+"Plan the best possible route for `C#CC1(O)C(C)=CC2(CC1(C)C(F)(F)F)OC(C)C(C)O2` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",6.029062747955322,"```smiles
+CC(C)OC1CC(C)(C)OC2(CC(=C(C)C(O)C#C)C1(C)C(F)(F)F)OC(C)C2O>>C#CC1(O)C(C)=CC2(CC1(C)C(F)(F)F)OC(C)C(C)O2
+```
+
+```smiles
+CC(C)OC1CC(C)(C)OC2(CC(=C(C)C(O)C#C)C1(C)C(F)(F)F)OC(C)C2O.C#CC(O)(C)C(=C)C>>CC(C)OC1CC(C)(C)OC2(CC(=C(C)C(O)C#C)C1(C)C(F)(F)F)OC(C)C2O
+```
+
+```smiles
+CC(C)OC1CC(C)(C)OC2(CC(=C(C)C=O)C1(C)C(F)(F)F)OC(C)C2O.C#CCH>>CC(C)OC1CC(C)(C)OC2(CC(=C(C)C(O)C#C)C1(C)C(F)(F)F)OC(C)C2O
+```
+
+```smiles
+CC(C)OC1CC(C)(C)OC2(CC(C(=O)C)C1(C)C(F)(F)F)OC(C)C2O.CC(C)=O>>CC(C)OC1CC(C)(C)OC2(CC(=C(C)C=O)C1(C)C(F)(F)F)OC(C)C2O
+```
+
+```smiles
+CC(C)OC1CC(C)(C)OC2(CC(CO)C1(C)C(F)(F)F)OC(C)C2O.CC(C)=O>>CC(C)OC1CC(C)(C)OC2(CC(C(=O)C)C1(C)C(F)(F)F)OC(C)C2O
+```
+
+```smiles
+CC(C)OC1CC(C)(C)OC2(CC(CO)C1(C)C(F)(F)F)OC(C)C2O.CC(C)O>>CC(C)OC1CC(C)(C)OC2(CC(CO)C1(C)C(F)(F)F)OC(C)C2O
+```
+
+```smiles
+CC(C)OC1CC(C)(C)OC2(CC(CO)C1(C)C(F)(F)F)OC(C)C2O.CC(C)O>>CC(C)OC1CC(C)(C)OC2(CC(CO)C1(C)C(F)(F)F)OC(C)C2O
+```
+
+```smiles
+OC(CO)C1(C)C(F)(F)F.CC(C)O.CC(C)O>>CC(C)OC1CC(C)(C)OC2(CC(CO)C1(C)C(F)(F)F)OC(C)C2O
+```
+
+```smiles
+CC(C)O.CC(C)O.OC(CO)C1(C)C(F)(F)F.CC(C)O.CC(C)O>>OC(CO)C1(C)C(F)(F)F
+```"
+"Plan the best possible route for `C1=C(Br)SC2=C1C(=NCC3=NN=C([N]23)C)C4=C(C=CC=C4)Cl` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.7865307331085205,"```
+/// Step 1: Build 4-bromothiophenol from 4-bromophenol
+O=C(Cl)Cl.Oc1ccc(Br)cc1>>Oc1ccc(Br)cc1S
+```"
+"Plan the best possible route for `C1=C(C#N)C=CC3=C1C4=C(C2=C(C=CC=C2)S3)CCN(CC4)C` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.156047821044922,"```smiles
+CCN(CC)CC.C1=CC=C(C=C1)C2=CC3=CC(=C(C#N)C=C3)S2>>C1=C(C#N)C=CC3=C1C4=C(C2=C(C=CC=C2)S3)CCN(CC4)C
+```"
+"Plan the best possible route for `C1=C(O)C=CC3=C1C24C(C(NCC2)C3)CCCC4` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.4866108894348145,"```
+O=C(O)CCCN>>NCCCO
+CC1(C2CCC1(CN(CCCO)CCCO)C2)C=Cc1cccc(O)c1>>C1=C(O)C=CC3=C1C24C(C(NCC2)C3)CCCC4
+```"
+"Plan the best possible route for `C1=C(O)C=CC4=C1C3(C(C(N(CC2CC2)CC3)C4)(C)C)CC` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",3.7923948764801025,"```smiles
+CC(C)(C)c1ccccc1.O=C=O>>CC(C)(C)c1ccccc1C(=O)O
+```
+
+```smiles
+CC(C)(C)c1ccccc1C(=O)O.CN(C)CC2CC2>>CC(C)(C)c1ccccc1C(=O)N(CC2CC2)C
+```
+
+```smiles
+CC(C)(C)c1ccccc1C(=O)N(CC2CC2)C.CC(C)(C)Br>>CC(C)(C)c1ccccc1C(=O)N(CC2CC2)C3(CC(C)(C)C)CC3
+```
+
+```smiles
+CC(C)(C)c1ccccc1C(=O)N(CC2CC2)C3(CC(C)(C)C)CC3.[O]>>CC(C)(C)c1ccc(O)cc1C4(C(C(N(CC2CC2)CC3)C4)(C)C)CC3
+```
+
+```smiles
+CC(C)(C)c1ccc(O)cc1C4(C(C(N(CC2CC2)CC3)C4)(C)C)CC3>>C1=C(O)C=CC4=C1C3(C(C(N(CC2CC2)CC3)C4)(C)C)CC
+```"
+"Plan the best possible route for `C1=C(O)C=CC4=C1C3(C(C(N(CC2CCC2)CC3)C4)(C)C)CC` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",3.588754892349243,"```
+/// tert-butyl 4-oxopiperidine-1-carboxylate
+CC(C)(C)OC(=O)N1CCC(=O)CC1>>O=C1CCN(CC2(C)(C)OC(=O)OC(C)(C)C)CC1
+
+/// installation of gem-dimethyl group on piperidone α-carbon (conceptual)
+O=C1CCN(CC2(C)(C)OC(=O)OC(C)(C)C)CC1.CC(C)(C)Br>>CC(C)(C)C1(CCN(CC2(C)(C)OC(=O)OC(C)(C)C)CC1)C(=O)C
+
+/// deprotection of Boc and reductive amination with cyclobutane
+CC(C)(C)C1(CCN(CC2(C)(C)OC(=O)OC(C)(C)C)CC1)C(=O)C.C1CCC1>>CC(C)(C)C1(CCN(CC2CCC2)CC1)C
+
+/// formation of 2-methyl-phenol (o-cresol) core
+CC1=CC=CC=C1.O>>CC1=CC=CC=C1O
+
+/// Friedel–Crafts alkylation of o-cresol with the sterically hindered tertiary amine side chain
+CC1=CC=CC=C1O.CC(C)(C)C1(CCN(CC2CCC2)CC1)C>>C1=C(O)C=CC4=C1C3(C(C(N(CC2CCC2)CC3)C4)(C)C)CC
+```"
+"Plan the best possible route for `C1=C(O)C=CC4=C1C35C(C(N(CCC2=CC=CC=C2)CC3)C4)CCCC5` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",4.532690763473511,"```smiles
+O=C(O)CC(=O)O.C1=CC=C(C=C1)NCCCN>>C1=CC=C(C=C1)N(CCC(=O)CC(=O)O)CC
+```
+
+```smiles
+C1=CC=C(C=C1)N(CCC(=O)CC(=O)O)CC.C1=CC=C(C=C1)C=O>>C1=CC=C(C=C1)N(CCC(=O)CC(=O)CC2=CC=CC=C2)CC
+```
+
+```smiles
+C1=CC=C(C=C1)N(CCC(=O)CC(=O)CC2=CC=CC=C2)CC>>C1=CC=C(C=C1)N(CCC2=CC=CC=C2)CC
+```
+
+```smiles
+O=C1CCCCC1.O=CC2=CC=CC=C2>>C1=CC2=C(CCCCC2=O)C=C1
+```
+
+```smiles
+C1=CC2=C(CCCCC2=O)C=C1>>C1=CC2=C(CCCCC2)C=C1
+```
+
+```smiles
+C1=CC2=C(CCCCC2)C=C1.Cl>>C1=CC(Cl)=C2CCCCC2C=C1
+```
+
+```smiles
+C1=CC(Cl)=C2CCCCC2C=C1>>C1=CC(Br)=C2CCCCC2C=C1
+```
+
+```smiles
+C1=CC(Br)=C2CCCCC2C=C1.C1=CC=C(C=C1)N(CCC2=CC=CC=C2)CC>>C1=CC(O)=C2C3C(C(N(CCC4=CC=CC=C4)CC3)C2)CCCC1
+```"
+"Plan the best possible route for `C1=C(OC)C(=CC2=C1C(=NN=C(C2)C)C3=CC=CC(=C3)Cl)OC` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.9451448917388916,"```smiles
+COC1=CC(=CC(=C1OC)Cl)C(=O)C.ClCCl>COC1=CC(=CC(=C1OC)Cl)C(=O)CCl
+```
+
+```smiles
+COC1=CC(=CC(=C1OC)Cl)C(=O)CCl.NH2N=C(C)C>COC1=CC(=CC(=C1OC)Cl)C(=NN=C(C)C)Cl
+```
+
+```smiles
+COC1=CC(=CC(=C1OC)Cl)C(=NN=C(C)C)Cl>COC1=CC(=CC2=C1C(=NN=C(C)C)C3=CC=CC(=C3)Cl)OC
+```"
+"Plan the best possible route for `C1=C(SC2=C1C(=NCC3=NN=C([N]23)C4CCCCC4)C5=CC=CC=C5Cl)Br` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",3.9469778537750244,"```smiles
+NC1=NN=C(N1)N.ClC2=CC=CC=C2Br> >N1N=NC(N1)CC3=NN=C(N3)C4=CC=C(Cl)C=C4Br
+
+N1N=NC(N1)CC2=NN=C(N2)C3=CC=C(Cl)C=C3Br.C4=CC=CC(=C4)Br> >C1=CC(=CC=C1)N2N=NC(N2)CC3=NN=C(N3)C4=CC=C(Cl)C=C4Br
+
+C1=CC(=CC=C1)N2N=NC(N2)CC3=NN=C(N3)C4=CC=C(Cl)C=C4Br.S=C=S> >C1=CC(=CC=C1)S2C(=S)N(N2)CC3=NN=C(N3)C4=CC=C(Cl)C=C4Br
+
+C1=CC(=CC=C1)S2C(=S)N(N2)CC3=NN=C(N3)C4=CC=C(Cl)C=C4Br.BrBr> >C1=C(SC2=C1C(=NCC3=NN=C([N]23)C4=CC=CC=C4Cl)C5=CC=CC=C5Br)Br
+```"
+"Plan the best possible route for `C1=C2C(=CC=C1)CCC(=C2)CC3=NCNC3` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.0770649909973145,"```smiles
+c1ccc2c(c1)cccc2.C=CCCBr>>C1=C2C(=CC=C1)CCC(=C2)CBr
+```
+
+```smiles
+C1=C2C(=CC=C1)CCC(=C2)CBr.NC1=CNC=N1>>C1=C2C(=CC=C1)CCC(=C2)CC3=NCNC3
+```"
+"Plan the best possible route for `C1=C2C(=CC=C1)N(C(Cl)(CN=C2C3=CC=CC=C3Cl)CO)C` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.3471899032592773,"```smiles
+ClC1=CC=CC=C1Cl.COC(=O)OC>>ClC1=CC=CC=C1C2=NC(Cl)=C(OC)N2
+```
+
+```smiles
+ClC1=CC=CC=C1C2=NC(Cl)=C(OC)N2.COC(=O)OC>>ClC1=CC=CC=C1C2=NC(Cl)=C(N(C)O)N2
+```"
+"Plan the best possible route for `C1=C4C(=C2C(=C1)C=CC=C2)CC3CN(C)CC(C3(O4)O)C` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.9162490367889404,"```
+/// Step 1: Friedel–Crafts acylation to make 2‑acetylnaphthalene
+c1ccc2ccccc2c1.CC(=O)Cl>>CC(=O)c1ccc2ccccc2c1
+
+/// Step 2: Intramolecular aldol / dehydration to form acenaphthylene‑1‑one
+CC(=O)c1ccc2ccccc2c1>>O=C1c2cccc3cccc(c23)C1
+
+/// Step 3: NaBH4 reduction to acenaphthen‑1‑ol
+O=C1c2cccc3cccc(c23)C1>>OC1c2cccc3cccc(c23)C1
+
+/// Step 4: Acid‑catalyzed rearrangement / ring contraction to 1,4‑epoxyacenaphthene
+OC1c2cccc3cccc(c23)C1>>O1C2CC3c4cccc5cccc(c45)C3(O1)C2
+
+/// Step 5: Epoxide opening with N,N‑dimethylaminoethanol to install dimethylaminomethyl side chain
+O1C2CC3c4cccc5cccc(c45)C3(O1)C2.CN(CCO)CCO>>C1=C4C(=C2C(=C1)C=CC=C2)CC3CN(C)CC(C3(O4)O)C
+```"
+"Plan the best possible route for `C1=CC(=C3C2=C1CC5C4C2(C(O3)C(O)C=C4)CCN5)O` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.87396240234375,"```smiles
+Oc1ccc(Cl)cc1.CC(=O)OCC>>O=C(OCC)C(=O)c1ccc(O)cc1
+```
+
+```smiles
+O=C(OCC)C(=O)c1ccc(O)cc1.O=Cc1ccccc1>>O=C(OCC)C(=O)OCc1ccccc1c1ccc(O)cc1
+```
+
+```smiles
+O=C(OCC)C(=O)OCc1ccccc1c1ccc(O)cc1>>O=C(OCC)C(=O)OCc1ccc2c(c1)CCc1ccc(O)cc1C2
+```
+
+```smiles
+O=C(OCC)C(=O)OCc1ccc2c(c1)CCc1ccc(O)cc1C2>>c1ccc2c(c1)CCc1ccc(O)cc1C2
+```
+
+```smiles
+c1ccc2c(c1)CCc1ccc(O)cc1C2.BrCCNCCBr>>C1CC2(CCNCC2)C3=C(C1)c1ccccc1OC3
+```
+
+```smiles
+C1CC2(CCNCC2)C3=C(C1)c1ccccc1OC3>>C1=CC(=C3C2=C1CC5C4C2(C(O3)C(O)C=C4)CCN5)O
+```"
+"Plan the best possible route for `C1=CC(=C3C2=C1CC5C4C2(C(O3)C(O)C=C4)CCN5)OC` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.3383419513702393,"```smiles
+COC1=CC=CC=C1Cl.C1=CC(=O)C=CC1=O>OCCO>C1=CC(=O)C(=O)C2=CC=CC=C12
+```
+
+```smiles
+C1=CC(=O)C(=O)C2=CC=CC=C12.CC(C)O>NaBH4>C1=CC(O)C(O)C2=CC=CC=C12
+```
+
+```smiles
+C1=CC(O)C(O)C2=CC=CC=C12>H2SO4>C1=CC(=C2C3=C1CC4CC3(O2)CCN4)O
+```
+
+```smiles
+C1=CC(=C2C3=C1CC4CC3(O2)CCN4)O.CH3I>K2CO3>C1=CC(=C3C2=C1CC5C4C2(C(O3)C(O)C=C4)CCN5)OC
+```"
+"Plan the best possible route for `C1=CC=CC3=C1C(C2=CC=CC=C2)(C=C3)CCN(C)C` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.6526200771331787,"```smiles
+CCN(C)CC.BrBrC1=CC=CC=C1>CCO>CNC(CBr)CC1=CC=CC=C1
+```
+
+```smiles
+BrBrC2=CC=CC=C2.C1=CC=CC=C1C=C>[K2CO3]>C1=CC=CC=C1C(Br)(C=C2C=CC=CC2)C
+```
+
+```smiles
+CNC(CBr)CC1=CC=CC=C1.C1=CC=CC=C1C(Br)(C=C2C=CC=CC2)C>CCO>C1=CC=CC3=C1C(C2=CC=CC=C2)(C=C3)CCN(C)C
+```"
+"Plan the best possible route for `C2=C(C(C1=CC=CC=C1)(C(OC(=O)C)CC)CC(N(C)C)C)C=CC=C2` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",5.600030899047852,"```smiles
+CCOC(=O)C.ClCCN(C)C>CCOC(=O)CCN(C)C
+```
+```smiles
+CCOC(=O)CCN(C)C.CC(C)(CBr)C1=CC=CC=C1>CCOC(=O)CCN(C)C.CC(C)(CC(C)C1=CC=CC=C1)C
+```
+```smiles
+C=CCBr.CC(C)(CC(C)C1=CC=CC=C1)C>CC(C)(CC(C)C1=CC=CC=C1)CCC=C
+```
+```smiles
+C=CCBr.CC(C)(CC(C)C1=CC=CC=C1)C>CC(C)(CC(C)C1=CC=CC=C1)C(Br)CC
+```
+```smiles
+CCOC(=O)CCN(C)C.CC(C)(CC(C)C1=CC=CC=C1)C(Br)CC>CCOC(=O)C.CC(C)(CC(C)C1=CC=CC=C1)CCN(C)C
+```
+```smiles
+C=CCBr.CC(C)(CC(C)C1=CC=CC=C1)CCN(C)C>CC(C)(CC(C)C1=CC=CC=C1)CCN(C)C.CC(C)(C=CCBr)C1=CC=CC=C1
+```
+```smiles
+CC(C)(C=CCBr)C1=CC=CC=C1>CC(C)(C=CC)C1=CC=CC=C1
+```
+```smiles
+CC(C)(CC(C)C1=CC=CC=C1)CCN(C)C.CC(C)(C=CC)C1=CC=CC=C1>CC(C)(CC(C)C1=CC=CC=C1)CCN(C)C.CC(C)(C=CC)C1=CC=CC=C1
+```
+```smiles
+CC(C)(CC(C)C1=CC=CC=C1)CCN(C)C.CC(C)(C=CC)C1=CC=CC=C1>CC(C)(CC(C)C1=CC=CC=C1)CCN(C)C.CC(C)(C=CC)C1=CC=CC=C1.CC(C)(CC(N(C)C)CC)C1=CC=CC=C1
+```
+```smiles
+CCOC(=O)C.CC(C)(CC(N(C)C)CC)C1=CC=CC=C1.CC(C)(C=CC)C1=CC=CC=C1>C2=C(C(C1=CC=CC=C1)(C(OC(=O)C)CC)CC(N(C)C)C)C=CC=C2
+```"
+"Plan the best possible route for `C2=C(C(C1=CC=CC=C1)(CCN(C)C)C(CC)=O)C=CC=C2` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.6530230045318604,"```smiles
+CCN(C)CC.CC(C)=O.CC1=CC=CC=C1C(=O)Cl>>CC(=O)C(CCN(C)C)(C1=CC=CC=C1)C
+```
+
+```smiles
+CC(=O)C(CCN(C)C)(C1=CC=CC=C1)C.C=C>>C2=C(C(C1=CC=CC=C1)(CCN(C)C)C(CC)=O)C=CC=C2
+```"
+"Plan the best possible route for `C2=C(C1=C(C=CC=C1)[N]2N(CCN(C)C)C)C3=CC=CC=C3` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.3425228595733643,"```
+/// Step 1: N-methylation of N,N-diethylethylenediamine
+CCN(CC)CCN.ClCI>>CCN(CC)CCN(C)C
+
+/// Step 2: Reductive amination to install benzhydryl fragment
+CCN(CC)CCN(C)C.CN(C)c1ccccc1.c1ccc(C=O)cc1>>CN(C)c1ccccc1N(CCN(C)C)C(c2ccccc2)c3ccccc3
+
+/// Step 3: Two-fold oxidative dehydrogenation to form the diimino-diphenylmethane core
+CN(C)c1ccccc1N(CCN(C)C)C(c2ccccc2)c3ccccc3>>C2=C(C1=C(C=CC=C1)[N]2N(CCN(C)C)C)C3=CC=CC=C3
+```"
+"Plan the best possible route for `C2=C1C(=NN=C(CC1=CC(=C2OC)OC)C)C3=CC=C(N)C=C3` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",3.819127082824707,"```
+/// 1. Build substituted anisole core
+COC1=CC(OC)=CC=C1.BrCCBr>CCOC(CBr)CBr
+CCOC(CBr)CBr>COC1=CC(OC)=CC=C1CC
+
+/// 2. Friedel–Crafts acylation to introduce the imine side-chain precursor
+COC1=CC(OC)=CC=C1CC.CC(=O)Cl>COC1=CC(OC)=CC=C1CCC(=O)C
+
+/// 3. Convert aryl ketone to corresponding hydrazone (for later oxidation to diazomethyl)
+COC1=CC(OC)=CC=C1CCC(=O)C.NN>COC1=CC(OC)=CC=C1CCC(=NN)C
+
+/// 4. Form the o‑amino aniline fragment
+NC1=CC=CC=C1.BrC2=CC=CC=C2>NC1=CC=CC=C1C2=CC=CC=C2
+
+/// 5. Assemble the biaryl system by intramolecular cyclization (C–C bond formation)
+COC1=CC(OC)=CC=C1CCC(=NN)C.NC2=CC=CC=C2C3=CC=CC=C3>
+C2=C1C(=NN=C(CC1=CC(=C2OC)OC)C)C3=CC=CC=C3N
+```"
+"Plan the best possible route for `C4=C(C(C2C(C1=CC=NC=C1)C2)(C3=CC=CC=C3)O)C=CC=C4` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.2927560806274414,"```smiles
+CC(=O)OC1=CC=NC=C1.CC(=O)OC2=CC=CC=C2.CC(=O)OC3=CC=CC=C3>>C4=C(C(C2C(C1=CC=NC=C1)C2)(C3=CC=CC=C3)O)C=CC=C4
+```"
+"Plan the best possible route for `C4=C(C(C3CCN(CCC1=C(N=C2N(C1=O)CCS2)C)CC3)=O)C=CC(=C4)F` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",3.6308369636535645,"```smiles
+O=C1NCCS1.NC(=O)CCl.ClC1=NC2=CC=CC=C2N1>>O=C1N(CCS1)CCC2=C(N=C3N(C2=O)CCS3)Cl
+```
+
+```smiles
+O=C1N(CCS1)CCC2=C(N=C3N(C2=O)CCS3)Cl.CC(C(=O)O)N.CC(C(=O)O)N>>CCC1=C(N=C2N(C1=O)CCS2)N
+```
+
+```smiles
+CCC1=C(N=C2N(C1=O)CCS2)N.CCOC(=O)C(Cl)Cl>>CCC1=C(N=C2N(C1=O)CCS2)C(=O)CCl
+```
+
+```smiles
+CCC1=C(N=C2N(C1=O)CCS2)C(=O)CCl.NCC3CCCCC3>>CCC1=C(N=C2N(C1=O)CCS2)C(=O)C3CCN(CCC3)CC
+```
+
+```smiles
+c1cc(F)ccc1C=O.P(=O)(O)O.CCO>>O=C(C=C1C=CC(F)=CC1)OCC
+```
+
+```smiles
+O=C(C=C1C=CC(F)=CC1)OCC.CCC1=C(N=C2N(C1=O)CCS2)C(=O)C3CCN(CCC3)CC>>C4=C(C(C3CCN(CCC1=C(N=C2N(C1=O)CCS2)C)CC3)=O)C=CC(=C4)F
+```"
+"Plan the best possible route for `C4=C(C3=C(CCN2CCN(C1=C(C=CC=C1)OC)CC2)OC(N3)=O)C=CC(=C4)F` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",4.274733066558838,"```smiles
+COC1=CC=CC=C1Cl.COC1=CC(=CC=C1)F>CCN2CCN(CC2)CC3CCC(=O)N3>COC1=CC(=CC=C1)N2CCN(CC2)CC3CCC(=O)N3
+```
+
+```smiles
+COC1=CC(=CC=C1)N2CCN(CC2)CC3CCC(=O)N3>POCl3>COC1=CC(=CC=C1)N2CCN(CC2)CC3CCC(=O)N3(=O)
+```
+
+```smiles
+COC1=CC(=CC=C1)N2CCN(CC2)CC3CCC(=O)N3(=O).NC4=CC(F)=CC=C4>SC(=S)Cl>COC1=CC(=CC=C1)N2CCN(CC2)CC3CCC(=O)N3(=S)NC4=CC(F)=CC=C4
+```"
+"Plan the best possible route for `C=C(C[C@@H](Cc1ccc(-c2ccccc2)cc1)NC(=O)OC(C)(C)C)C(=O)O` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",4.377449989318848,"```
+/// Step 1: Friedel–Crafts acylation to make benzophenone
+c1ccc(cc1).O=CClc1ccccc1>>O=C(c1ccccc1)c1ccccc1
+
+/// Step 2: Reductive amination of benzophenone with glycine tert-butyl ester
+O=C(c1ccccc1)c1ccccc1.NCC(=O)OC(C)(C)C>>CC(C)(C)OC(=O)NCC(c1ccccc1)c1ccccc1
+
+/// Step 3: Asymmetric reduction of the benzophenone moiety to give the chiral benzhydryl fragment
+CC(C)(C)OC(=O)NCC(c1ccccc1)c1ccccc1>>CC(C)(C)OC(=O)NC[C@@H](Cc1ccc(-c2ccccc2)cc1)O
+
+/// Step 4: Esterification of the benzylic alcohol with methacrylic acid to introduce the acrylate
+CC(C)(C)OC(=O)NC[C@@H](Cc1ccc(-c2ccccc2)cc1)O.C=C(C)C(=O)O>>C=C(C[C@@H](Cc1ccc(-c2ccccc2)cc1)NC(=O)OC(C)(C)C)C(=O)O
+```"
+"Plan the best possible route for `C=C(C[C@@H](Cc1ccc(-c2ccccc2)cc1)NC(=O)OC(C)(C)C)C(=O)OC` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.2453620433807373,"```smiles
+CCOC(=O)C(=C)CBr.Cc1ccc(-c2ccccc2)cc1.CC(C)(C)OC(=O)Cl.NC(Br)C(=O)OC(C)(C)C>CCOC(=O)C(=C)C[C@@H](Cc1ccc(-c2ccccc2)cc1)NC(=O)OC(C)(C)C
+```"
+"Plan the best possible route for `CC#CCn1c(Br)nc(C=O)c1C(=O)OC` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.0186290740966797,"```smiles
+CC#CBr.O=CCn1c[nH]c(=O)c1C(=O)OC>>CC#CCn1c(Br)nc(C=O)c1C(=O)OC
+```"
+"Plan the best possible route for `CC(=O)N1c2ccc(N3CCNCC3)cc2[C@H](Nc2ccccc2)[C@@H](C)[C@@H]1C` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",3.974968910217285,"```
+/// Step 1: Reductive amination to install the N-benzyl group on 4‑acetylaniline
+CC(=O)c1ccc(N)cc1.Cc2ccccc2>>CC(=O)c1ccc(NCc2ccccc2)cc1
+
+/// Step 2: α‑Chiral alkylation of the aryl ketone with a chiral auxiliary or chiral base (formal step)
+CC(=O)c1ccc(NCc2ccccc2)cc1.CC>>CC(C)c1ccc(NCc2ccccc2)cc1
+
+/// Step 3: Cyclization to the 1‑acetanilide framework
+CC(C)c1ccc(NCc2ccccc2)cc1.CC(=O)Cl>>CC(=O)N1c2ccc(NCc3ccccc3)cc2C(C)C1
+
+/// Step 4: Installation of the N‑(2‑chloroethyl)morpholine side chain via SN2 on N‑benzyl group (formal disconnection)
+CC(=O)N1c2ccc(NCc3ccccc3)cc2C(C)C1.ClCCN4CCOCC4>>CC(=O)N1c2ccc(N(CCN4CCOCC4)c3ccccc3)cc2C(C)C1
+
+/// Step 5: N‑debenzylation / rearrangement to give the target piperazine substitution pattern (formal step)
+CC(=O)N1c2ccc(N(CCN4CCNCC4)c3ccccc3)cc2C(C)C1>>CC(=O)N1c2ccc(N3CCNCC3)cc2[C@H](Nc2ccccc2)[C@@H](C)[C@@H]1C
+```"
+"Plan the best possible route for `CC(=O)NC[C@H]1CN(c2ccc3c(c2)CCCc2c(C(C)C)n[nH]c2-3)C(=O)O1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",3.164761781692505,"```smiles
+CC(=O)NCCl.O=C1NCCO1>>CC(=O)NC[C@H]1CN(C(=O)O1)Cl
+```
+
+```smiles
+CC(=O)C(=O)O.O=CCc1ccc2ccccc2c1>>CC(=O)CC(=O)OCCc1ccc2ccccc2c1
+```
+
+```smiles
+CC(=O)CC(=O)OCCc1ccc2ccccc2c1.NN>>CC(=O)CC(=NN)OCCc1ccc2ccccc2c1
+```
+
+```smiles
+CC(=O)CC(=NN)OCCc1ccc2ccccc2c1>>CC(C)c1nc2ccc3c(c2n1)CCCc1ccccc1-3
+```
+
+```smiles
+CC(C)c1nc2ccc3c(c2n1)CCCc1ccccc1-3.Cl>>CC(C)c1nc2ccc3c(c2[nH]1)CCCc2ccccc2-3
+```
+
+```smiles
+CC(=O)NC[C@H]1CN(C(=O)O1)Cl.CC(C)c1nc2ccc3c(c2[nH]1)CCCc2ccccc2-3>>CC(=O)NC[C@H]1CN(c2ccc3c(c2)CCCc2c(C(C)C)n[nH]c2-3)C(=O)O1
+```"
+"Plan the best possible route for `CC(=O)OCc1nc2cnc(Br)cc2n1C(C)(C)COC(C)=O` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.5352060794830322,"```smiles
+CC(Br)(Br)Br.Cc1nc2cnc(Br)cc2n1C(C)(C)COC(C)=O>>Cc1nc2cnc(Br)cc2n1C(C)(C)COC(C)=O
+CC(=O)OCc1nc2cnc(Br)cc2n1C(C)(C)COC(C)=O.CBr>>CC(=O)OCc1nc2cnc(Br)cc2n1C(C)(C)COC(C)=O
+```"
+"Plan the best possible route for `CC(=O)c1ccc2c(c1)C=CC(O)(CO)CO2` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.1616508960723877,"```
+/// Ethyl acetoacetate + 2‑bromobenzyl alcohol → arylated β‑keto ester
+CCOC(=O)CC(=O)C.OCC1=CC=CC=C1Br>>CCOC(=O)CC(=O)CC1=CC=CC=C1
+
+/// Intramolecular aldol/cyclization to form the indanone core
+CCOC(=O)CC(=O)CC1=CC=CC=C1>>CC(=O)C1=CC=CC2=C1CCC(=O)2
+
+/// Reduction of the ketone and aldehyde-equivalent to introduce diol side chain (formal)
+CC(=O)C1=CC=CC2=C1CCC(=O)2.CCOC(CO)O>>CC(=O)c1ccc2c(c1)C=CC(O)(CO)CO2
+```"
+"Plan the best possible route for `CC(C)(C)OC(=O)N1CC=C(c2ccc3c(c2)-n2nc(-c4ncnn4CC(F)(F)F)cc2CCO3)CC1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",3.8777358531951904,"```smiles
+CC(C)(C)OC(=O)Cl.CN1CCOCC1>>CC(C)(C)OC(=O)N1CCOCC1
+
+CC(C)(C)OC(=O)N1CCOCC1>>CC(C)(C)OC(=O)N1CC=C(CC=O)CC1
+
+O=Cc1ccc(Cl)cc1>>O=Cc1ccc(Br)cc1
+
+O=Cc1ccc(Br)cc1.N#N[Na]>>O=Cc1ccc(N2N=NO2)cc1
+
+O=Cc1ccc(N2N=NO2)cc1>>O=Cc1ccc(N2N=NC(=O)O2)cc1
+
+O=Cc1ccc(N2N=NC(=O)O2)cc1.NH2NH2>>O=Cc1ccc(N2NN=C2)cc1
+
+O=Cc1ccc(N2NN=C2)cc1>>O=Cc1ccc2c(c1)n1nnc(-c3ncnn3Cl)c1CCO2
+
+O=Cc1ccc2c(c1)n1nnc(-c3ncnn3Cl)c1CCO2.CBr(C(F)(F)F)Br>>O=Cc1ccc2c(c1)n1nnc(-c3ncnn3C(F)(F)F)c1CCO2
+
+O=Cc1ccc2c(c1)n1nnc(-c3ncnn3C(F)(F)F)c1CCO2>>c1ccc2c(c1)-n1nnc(-c3ncnn3C(F)(F)F)c1CCO2
+
+CC(C)(C)OC(=O)N1CC=C(CC=O)CC1.c1ccc2c(c1)-n1nnc(-c3ncnn3C(F)(F)F)c1CCO2>>CC(C)(C)OC(=O)N1CC=C(c2ccc3c(c2)-n2nc(-c4ncnn4C(F)(F)F)cc2CCO3)CC1
+
+CC(C)(F)Cl>>CC(F)(F)Cl
+
+CC(F)(F)Cl.CN>>CN(C(F)(F)F)
+```"
+"Plan the best possible route for `CC(C)(C)OC(=O)NC1(C2CCc3cc(Sc4cccc(OCc5ccccc5)c4)ccc3C2)COC(C)(C)OC1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.9809160232543945,"```smiles
+CC(C)(C)OC(=O)Cl.N1CCOCC1>>CC(C)(C)OC(=O)N1CCOCC1
+```
+
+```smiles
+CC(C)(C)OC(=O)N1CCOCC1.BrBr>CC(C)(C)OC(=O)N1CC(Br)COCC1
+```
+
+```smiles
+CC(C)(C)OC(=O)N1CC(Br)COCC1.C1=CC=C(C=C1)OCC1=CC=CC=C1>CC(C)(C)OC(=O)N1CC(COc2ccccc2)COCC1
+```
+
+```smiles
+CC(C)(C)OC(=O)N1CC(COc2ccccc2)COCC1.ClC(Cl)=C(Cl)Cl>CC(C)(C)OC(=O)N1CC(COc2ccccc2)COC(CCl)(CCl)COCC1
+```
+
+```smiles
+CC(C)(C)OC(=O)N1CC(COc2ccccc2)COC(CCl)(CCl)COCC1.Cl>CC(C)(C)OC(=O)N1C(COc2ccccc2)C(Cl)OC(C)(C)OC1
+```
+
+```smiles
+CC(C)(C)OC(=O)N1C(COc2ccccc2)C(Cl)OC(C)(C)OC1.C1=CC=C(C=C1)SC1=CC=CC=C1>CC(C)(C)OC(=O)NC1(C2CCc3cc(Sc4cccc(OCc5ccccc5)c4)ccc3C2)COC(C)(C)OC1
+```"
+"Plan the best possible route for `CC(C)(C)OC(=O)NC1(c2nc(NCc3ccccn3)c3c(Cl)ccn3n2)CC1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.5145659446716309,"```smiles
+O=C(OC(C)(C)C)Cl.NC1(CN2C(=NC3=CC(Cl)=NC=C32)CN1)CC1>>CC(C)(C)OC(=O)NC1(c2nc(NC3=CC=CC=N3)c3c(Cl)ccn3n2)CC1
+```"
+"Plan the best possible route for `CC(C)(C)OC(=O)NC1(c2nc(O)c3c(Cl)ccn3n2)CC1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.6343109607696533,"```smiles
+OC(=O)NC1(c2ncc3c(Cl)ccn3n2)CC1.O=PCl3>>OC(=O)NC1(c2nc(O)c3c(Cl)ccn3n2)CC1
+```
+```smiles
+OC(=O)NC1(c2nc(O)c3c(Cl)ccn3n2)CC1.CC(C)(C)O.C(=O)Cl>>CC(C)(C)OC(=O)NC1(c2nc(O)c3c(Cl)ccn3n2)CC1
+```"
+"Plan the best possible route for `CC(C)(C)OC(=O)N[C@@H]1c2cccnc2C(=O)CC[C@H]1c1cccc(F)c1F` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.1217319965362549,"```smiles
+CC(C)(C)OC(=O)Cl.N[C@@H]1c2cccnc2C(=O)CC[C@H]1c1cccc(F)c1F>>CC(C)(C)OC(=O)N[C@@H]1c2cccnc2C(=O)CC[C@H]1c1cccc(F)c1F
+```"
+"Plan the best possible route for `CC(C)(C)OC(=O)N[C@@H]1c2cccnc2[C@H](N)CC[C@H]1c1cccc(F)c1F` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.8422472476959229,"```smiles
+O=C(OC(C)(C)C)Cl.N[C@@H]1c2cccnc2[C@H](N)CC[C@H]1c1cccc(F)c1F>>CC(C)(C)OC(=O)N[C@@H]1c2cccnc2[C@H](N)CC[C@H]1c1cccc(F)c1F
+```"
+"Plan the best possible route for `CC(C)(C)OC(=O)N[C@@H]1c2cccnc2[C@H](O)CC[C@H]1c1cccc(F)c1F` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.9190819263458252,"```smiles
+CC(C)(C)OC(=O)Cl.N[C@@H]1c2cccnc2[C@H](O)CC[C@H]1c1cccc(F)c1F>>CC(C)(C)OC(=O)N[C@@H]1c2cccnc2[C@H](O)CC[C@H]1c1cccc(F)c1F
+```"
+"Plan the best possible route for `CC(C)(CO)n1c(CO)nc2cnc(Br)cc21` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.868072271347046,"```smiles
+COC(=O)c1ncc(Br)cc1N.CO>>COc1ncc(Br)cc1N
+```
+
+```smiles
+COc1ncc(Br)cc1N.CN>>COc1ncc(Br)cc1N(C)
+```
+
+```smiles
+COc1ncc(Br)cc1N(C).CO>>COc1ncc(Br)cc1N(C)CO
+```
+
+```smiles
+COc1ncc(Br)cc1N(C)CO.CC(CO)O>>CC(C)(CO)n1c(CO)nc2cnc(Br)cc21
+```"
+"Plan the best possible route for `CC(C)c1ccc2c(c1)OC1(O)c3ccccc3C(=O)C21NC(=O)c1cc(-c2ccccc2)n[nH]1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.4661860466003418,"```smiles
+CC(C)c1ccc(C=O)c(c1)OC(=O)c1ccccc1.c1ccc2c(c1)OC1(O)c3ccccc3C(=O)C21NC(=O)c1ccn[nH]1>>CC(C)c1ccc2c(c1)OC1(O)c3ccccc3C(=O)C21NC(=O)c1cc(-c2ccccc2)n[nH]1
+```"
+"Plan the best possible route for `CC1=NC2(N=C1N)c1cc(Br)ccc1CCC21CC1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",3.230595111846924,"```smiles
+BrBr.COc1ccc(NC(=O)N(CCCl)CCCl)cc1>>COc1ccc(NC(=O)N(CCCl)CCCl)cc1Br
+```
+
+```smiles
+COc1ccc(NC(=O)N(CCCl)CCCl)cc1Br.CC(=O)N(Br)Br>>CC(=O)NC(C)(C)Nc1ccc(Br)cc1OC
+```
+
+```smiles
+CC(=O)NC(C)(C)Nc1ccc(Br)cc1OC.ClCCl>>CC(=O)NC(C)(C)Nc1ccc(CCCCl)cc1OC
+```
+
+```smiles
+CC(=O)NC(C)(C)Nc1ccc(CCCCl)cc1OC.N#CN=NC#N>>CC(=O)NC(C)(C)Nc1ccc(CCCn2c(nc(n2)N)N)cc1OC
+```
+
+```smiles
+CC(=O)NC(C)(C)Nc1ccc(CCCn2c(nc(n2)N)N)cc1OC>>Nc1ccc(CCCn2c(nc(n2)N)N)cc1OC
+```
+
+```smiles
+Nc1ccc(CCCn2c(nc(n2)N)N)cc1OC>>CC1=NC2(N=C1N)c1ccc(CCC21CC1)cc1
+```"
+"Plan the best possible route for `CCCC[Sn](/C=C/C1(O)C(C)=CC2(CC1(C)C(F)(F)F)OC(C)C(C)O2)(CCCC)CCCC` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.8435239791870117,"```smiles
+CCCCBr.CCCC[Sn](CCCC)(CCCC)Br>>CCCC[Sn](CCCC)(CCCC)CCCC
+
+CC(C)(O)C(=O)C=C=O.O=C(O)C(F)(F)F>>CC(C)(O)C(=O)C(=C=O)C(=O)C(F)(F)F
+
+CC(C)(O)C(=O)C(=C=O)C(=O)C(F)(F)F.C=C(C)C(C)(O)C>>CC(C)(O)C1(C)C(=O)C(C)=C(C(=O)C(F)(F)F)OC(C)(C)C1
+
+CC(C)(O)C1(C)C(=O)C(C)=C(C(=O)C(F)(F)F)OC(C)(C)C1.O>>CC(C)OC1CC(C)(O)OC2(C)C(C=CC(=O)C(F)(F)F)OC(C)C(C)O21
+
+CCCC[Sn](CCCC)(CCCC)CCCC.CC(C)OC1CC(C)(O)OC2(C)C(C=CC(=O)C(F)(F)F)OC(C)C(C)O21>>CCCC[Sn](/C=C/C1(O)C(C)=CC2(CC1(C)C(F)(F)F)OC(C)C(C)O2)(CCCC)CCCC
+```"
+"Plan the best possible route for `CCCN(CCC)CCc1ccc(c2c1CC(N2)=C)O` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",18.310260772705078,"```smiles
+c1ccc(cc1)O.CCBr>>CCc1ccc(O)cc1
+```
+
+```smiles
+CCc1ccc(O)cc1.NCCN>>CCN(CCc1ccc(O)cc1)CC
+```
+
+```smiles
+CCN(CCc1ccc(O)cc1)CC.CCBr>>CCCN(CCC)CCc1ccc(O)cc1
+```
+
+```smiles
+CCCN(CCC)CCc1ccc(O)cc1.C1CC(=O)N1>>CCCN(CCC)CCc1ccc(c2c1CC(N2)=C)O
+```"
+"Plan the best possible route for `CCN(CC)C(C)=NN=Cc1c(O)c2c3C(=O)C4(C)OC=CC(OC)C(C)C(OC(C)=O)C(C)C(O)C(C)C(O)C(C)C=CC=C(C)C(=O)Nc1c(O)c2c(O)c(C)c3O4` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.501831293106079,"```smiles
+COC(=O)Cl.CCOCC>>COC(=O)OCCOC
+```
+
+```smiles
+CC(C)=O.ClC(CCl)=NN=Cc1c(O)c2c3C(=O)C4(C)OC=CC(OC)C(C)C(O)C(C)C(O)C(C)C(=O)Nc1c(O)c2c(O)c(C)c3O4>>CCN(CC)C(C)=NN=Cc1c(O)c2c3C(=O)C4(C)OC=CC(OC)C(C)C(O)C(C)C(O)C(C)C(=O)Nc1c(O)c2c(O)c(C)c3O4
+```
+
+```smiles
+COC(=O)OCCOC.c1c(O)c2c3C(=O)C4(C)OC=CC(OC)C(C)C(O)C(C)C(O)C(C)C(=O)Nc1c(O)c2c(O)c(C)c3O4>>COC(=O)OCCOC.CCN(CC)C(C)=NN=Cc1c(O)c2c3C(=O)C4(C)OC=CC(OC)C(C)C(OC)C(C)C(OC(C)=O)C(C)C=CC=C(C)C(=O)Nc1c(O)c2c(O)c(C)c3O4
+```"
+"Plan the best possible route for `CCOC(=O)/C(N)=N/Nc1cc(Cl)ccc1[N+](=O)[O-]` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.5173630714416504,"```
+/// Step 1: Nitration of 4-chloroaniline
+Nc1ccc(Cl)cc1.O=[N+]([O-])O>>Nc1cc(Cl)ccc1[N+](=O)[O-]
+
+/// Step 2: Formamidine formation (guanidinylation) with ethyl formimidate
+Nc1cc(Cl)ccc1[N+](=O)[O-].CCOC(=N)H>>CCOC(=N)Nc1cc(Cl)ccc1[N+](=O)[O-]
+
+/// Step 3: Oxidation of formamidine to the target amidine
+CCOC(=N)Nc1cc(Cl)ccc1[N+](=O)[O-]>>CCOC(=O)/C(N)=N/Nc1cc(Cl)ccc1[N+](=O)[O-]
+```"
+"Plan the best possible route for `CCOC(OCC)C(=O)OCC(=O)C1(O)CC(OC2CC(N)C(O)C(C)O2)c3c(O)c4C(=O)c5c(OC)cccc5C(=O)c4c(O)c3C1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",3.202057123184204,"```smiles
+COC1=CC=CC2=C1C(=O)C3=C(O)C(O)=C(O)C4(CC(=O)CO4)C(=O)C3=C2OC.ClCCCl>CCOCC>COC1=CC=CC2=C1C(=O)C3=C(O)C(O)=C(O)C4(CC(=O)OCCCl)C(=O)C3=C2OC
+```
+
+```smiles
+COC1=CC=CC2=C1C(=O)C3=C(O)C(O)=C(O)C4(CC(=O)OCCCl)C(=O)C3=C2OC.CCO>>CCOC(OCC)C(=O)OCC(=O)C1(O)C2=C(O)C3=C(O)C(=O)C4=C(OC)C=CC=C4C(=O)C3=C2C1
+```
+
+```smiles
+CCOC(OCC)C(=O)OCC(=O)C1(O)C2=C(O)C3=C(O)C(=O)C4=C(OC)C=CC=C4C(=O)C3=C2C1.CC(C)C(=O)O.CC(C)CO.NCC1C(C(C(O1)CO)O)O>>CCOC(OCC)C(=O)OCC(=O)C1(O)CC(OC2CC(N)C(O)C(C)O2)c3c(O)c4C(=O)c5c(OC)cccc5C(=O)c4c(O)c3C1
+```"
+"Plan the best possible route for `CC[C@@H](OC(=O)c1ccccc1)[C@H]1CCCN(C(=O)OC(C)(C)C)C1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.4205231666564941,"```smiles
+CCOC(=O)CCN1CCC[C@H]1COC(=O)c1ccccc1.CC(C)(C)OCl>>CC[C@@H](OC(=O)c1ccccc1)[C@H]1CCCN(C(=O)OC(C)(C)C)C1
+```"
+"Plan the best possible route for `CN(C)Cc1oc(cc1)CSCCNC=1NC=C(CN1)Cc1cnc(cc1)C` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",4.003180027008057,"```
+/// Step 1: Reductive amination to install N,N-dimethylaminomethyl on 4-formyl-2-methylphenol
+CC1=CC(=C(C=C1)O)C=O.CN(C)C>[H+]CN(C)C>CN(C)Cc1oc(cc1)C
+
+/// Step 2: Thioether formation: attach HSCH2CH2NH2 side chain (as SH–CH2–CH2–NH2) to benzylic CH3 via chloromethylation/thiol substitution/oxidation–reduction sequence (overall formal transformation)
+CN(C)Cc1oc(cc1)C.NCCS>>CN(C)Cc1oc(cc1)CSCCN
+
+/// Step 3: N-alkylation of ethylenediamine end with 2-(bromomethyl)imidazolin-4-ylmethyl fragment
+CN(C)Cc1oc(cc1)CSCCN.COC(=O)CN1C=NC(CN1)C.BrCNC=1NC=C(CN1)C>>CN(C)Cc1oc(cc1)CSCCNC=1NC=C(CN1)C
+
+/// Step 4: N-benzylation of imidazoline with 2-methyl-5-(bromomethyl)pyridine
+CN(C)Cc1oc(cc1)CSCCNC=1NC=C(CN1)C.CC1=CN=C(C=C1)C.BrCc1cnc(cc1)C>>CN(C)Cc1oc(cc1)CSCCNC=1NC=C(CN1)Cc1cnc(cc1)C
+```"
+"Plan the best possible route for `CN1CCN(CC/C=C/2c3ccccc3Sc4ccc(cc24)[S](=O)(=O)N(C)C)CC1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.4968230724334717,"```smiles
+CN(C)S(=O)(=O)Cl.Nc1ccc(Sc2ccccc2S(=O)(=O)Cl)cc1>>CN(C)S(=O)(=O)c1ccc(Sc2ccccc2S(=O)(=O)N)cc1
+```
+
+```smiles
+CN(C)S(=O)(=O)c1ccc(Sc2ccccc2S(=O)(=O)N)cc1.O=CCCl>>CN(C)S(=O)(=O)c1ccc(Sc2ccccc2S(=O)(=O)NCC=O)cc1
+```
+
+```smiles
+CN(C)S(=O)(=O)c1ccc(Sc2ccccc2S(=O)(=O)NCC=O)cc1.CN1CCNCC1>>CN1CCN(CC/C=C/c2c3ccccc3Sc3ccc(cc23)[S](=O)(=O)N(C)C)CC1
+```"
+"Plan the best possible route for `CN1CC[C@]23CCCC[C@H]2[C@H]1Cc4ccc(O)cc34` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.3600289821624756,"```smiles
+COc1ccc(Br)cc1.CN1CCCCC1>>CN1CCCCC1Cc2ccc(OC)cc2
+```
+
+```smiles
+CN1CCCCC1Cc2ccc(OC)cc2>>CN1CCCCC1Cc2ccc(O)cc2
+```
+
+```smiles
+CN1CCCCC1Cc2ccc(O)cc2.C1CCCCC1>>CN1CCCCC1Cc2ccc(O)cc2C3CCCCC3
+```"
+"Plan the best possible route for `COC(=O)CCc1cc2cc(-c3noc(-c4ccc(OC(C)C)c(Cl)c4)n3)ccc2n1C` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",3.901183843612671,"```smiles
+CC(=O)Cl.COc1ccc(Cl)cc1>>CC(=O)Oc1ccc(Cl)cc1OC
+```
+```smiles
+O=CCCl.CC(=O)Oc1ccc(Cl)cc1OC>>CC(=O)Oc1ccc(Cl)cc1OCCC=O
+```
+```smiles
+CC(C)O.CC(=O)Oc1ccc(Cl)cc1OCCC=O>>COC(=O)CCCc1ccc(OC(C)C)c(Cl)c1
+```
+```smiles
+COC(=O)Cl.COc1ccc(Cl)cc1OC>>COC(=O)c1ccc(Cl)cc1OC
+```
+```smiles
+COC(=O)c1ccc(Cl)cc1OC.NC(=O)N>>COC(=O)c1ccc(Cl)cc1OCNNC=O
+```
+```smiles
+COC(=O)c1ccc(Cl)cc1OCNNC=O>>COC(=O)c1ccc(Cl)cc1OCNN=O
+```
+```smiles
+COC(=O)CCCc1ccc(OC(C)C)c(Cl)c1.COC(=O)c1ccc(Cl)cc1OCNN=O>>COC(=O)CCCc1ccc(OC(C)C)c(Cl)c1NNC(=O)OC
+```
+```smiles
+COC(=O)CCCc1ccc(OC(C)C)c(Cl)c1NNC(=O)OC>>COC(=O)CCCc1ccc(OC(C)C)c(Cl)c1NN=O
+```
+```smiles
+COC(=O)CCCc1ccc(OC(C)C)c(Cl)c1NN=O>>COC(=O)CCc1cc2cc(-c3noc(-c4ccc(OC(C)C)c(Cl)c4)n3)ccc2n1C
+```"
+"Plan the best possible route for `COC(=O)c1ccc2c(c1)C=CC(=C(Cl)Cl)CO2` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.186098098754883,"```
+/// 1. Vilsmeier–Haack formylation of anisole
+COc1ccccc1.CN(P(=O)(Cl)Cl)N(C)Cl>>COc1ccc(C=O)cc1
+
+/// 2. Intramolecular o-hydroxymethylation (formal)
+COc1ccc(C=O)cc1.CO>>COc1ccc2c(c1)COC=CO2
+
+/// 3. Conjugated di-chloromethylenation
+COc1ccc2c(c1)COC=CO2.CCl4>>COC(=O)c1ccc2c(c1)C=CC(=C(Cl)Cl)CO2
+```"
+"Plan the best possible route for `COC(=O)c1ccc2c(c1)C=CC(=CCl)CO2` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.4338960647583008,"```smiles
+ClC(Cl)=CCl.COC(=O)c1ccc2c(c1)C=CC(=O)CO2>>COC(=O)c1ccc2c(c1)C=CC(=CCl)CO2
+```"
+"Plan the best possible route for `COC1=C(N3C(SC1)C(NC(=O)C(N)C2C=CCC=C2)C3=O)C(O)=O` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.2067952156066895,"```smiles
+COC(=O)C(Cl)Cl.CS>>CSC(C(=O)OC)Cl
+```
+
+```smiles
+CSC(C(=O)OC)Cl.CNC(=O)CO>>CSC1(NC(=O)CNC(=O)CO)C(=O)OC1
+```
+
+```smiles
+CSC1(NC(=O)CNC(=O)CO)C(=O)OC1.NC(C=CC=C2)C2>>COC1=C(N3C(SC1)C(NC(=O)C(N)C2C=CCC=C2)C3=O)C(O)=O
+```"
+"Plan the best possible route for `COCCCc1cc(CN(C(=O)[C@H]2CN(C(=O)OC(C)(C)C)CC[C@@H]2c2ccc(OCCOc3c(Cl)cc(C)cc3Cl)cc2)C2CC2)cc(OCCOC)c1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.6104340553283691,"```smiles
+CC(C)(C)OC(=O)Cl.COCCCOc1cc(CN(C(=O)[C@H]2CN(C(=O)OC(C)(C)C)CC[C@@H]2c2ccc(OCCOc3c(Cl)cc(C)cc3Cl)cc2)C2CC2)cc(OCCOC)c1>>COCCCc1cc(CN(C(=O)[C@H]2CN(C(=O)OC(C)(C)C)CC[C@@H]2c2ccc(OCCOc3c(Cl)cc(C)cc3Cl)cc2)C2CC2)cc(OCCOC)c1
+```"
+"Plan the best possible route for `COCCCc1cc(CN(C(=O)[C@H]2CNCC[C@@H]2c2ccc(OCCOc3c(Cl)cc(C)cc3Cl)cc2)C2CC2)cc(OCCOC)c1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",4.249969005584717,"```smiles
+CCOCCl.COc1cc(C)cc(Cl)c1Cl>CCOCCl>COCCOc1cc(C)cc(Cl)c1Cl
+```
+
+```smiles
+COCCOc1cc(C)cc(Cl)c1Cl.O=C=O>COCCOc1cc(C(=O)O)cc(Cl)c1Cl
+```
+
+```smiles
+COCCOc1cc(C(=O)O)cc(Cl)c1Cl.BH3>COCCOc1cc(CO)cc(Cl)c1Cl
+```
+
+```smiles
+COCCOc1cc(CO)cc(Cl)c1Cl.BrCCCOCCOC>COCCOc1cc(COCCCOCCOC)cc(Cl)c1Cl
+```
+
+```smiles
+COCCOc1cc(COCCCOCCOC)cc(Cl)c1Cl.BrCc1ccc(Cl)cc1>COCCOc1cc(Cc2ccc(Cl)cc2)cc(Cl)c1Cl
+```
+
+```smiles
+COCCOc1cc(Cc2ccc(Cl)cc2)cc(Cl)c1Cl.C1CC1N(COCCl)CO>COCCOc1cc(CN(COCCl)C2CC2)cc(Cl)c1Cl
+```
+
+```smiles
+COCCOc1cc(CN(COCCl)C2CC2)cc(Cl)c1Cl.NC(=O)CH2CH2CH2NCC2=CC=CC=C2>COCCOc1cc(CN(C(=O)CH2CH2CH2NCC2=CC=CC=C2)C3CC3)cc(Cl)c1Cl
+```
+
+```smiles
+COCCOc1cc(CN(C(=O)CH2CH2CH2NCC2=CC=CC=C2)C3CC3)cc(Cl)c1Cl.FCl>COCCOc1cc(CN(C(=O)[C@H]2CNCC[C@@H]2c2ccc(OCCOc3c(Cl)cc(C)cc3Cl)cc2)C3CC3)cc(Cl)c1Cl
+```"
+"Plan the best possible route for `COC[C@H](C)COCc1ccc([C@@]2(O)CCN(C(=O)OC(C)(C)C)C[C@@H]2C=O)cc1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",3.0619421005249023,"```smiles
+CC(=O)OC(=O)N1CC[C@@]2(C=O)CC1(O)CC[C@H]2Br>>O=CC1CCN2CC[C@]1(C2=O)O
+```
+
+```smiles
+BrCCOC>>O=CCOCCBr
+```
+
+```smiles
+O=CCOCCBr.CC(C)OC>>COC[C@H](C)COCC=O
+```
+
+```smiles
+COC[C@H](C)COCC=O.O=CC1CCN2CC[C@]1(C2=O)O>>COC[C@H](C)COCc1ccc([C@@]2(O)CCN(C(=O)O)C[C@@H]2C=O)cc1
+```
+
+```smiles
+COC[C@H](C)COCc1ccc([C@@]2(O)CCN(C(=O)O)C[C@@H]2C=O)cc1.CC(C)(C)OC(=O)Cl>>COC[C@H](C)COCc1ccc([C@@]2(O)CCN(C(=O)OC(C)(C)C)C[C@@H]2C=O)cc1
+```"
+"Plan the best possible route for `COC[C@H](C)COCc1ccc([C@@]2(O)CCN(C(=O)OC(C)(C)C)C[C@@H]2CO)cc1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",3.2862401008605957,"```smiles
+CCOC(=O)C(C)(C)O.CC(CO)OC.ClCCl>CCOC(=O)C(C)(C)OCOCC(C)OC
+```
+
+```smiles
+COC[C@H](C)O.CCOC(=O)C(C)(C)OCOCC(C)OC>COC[C@H](C)OCOC(=O)C(C)(C)OCOCC(C)OC
+```
+
+```smiles
+COC[C@H](C)OCOC(=O)C(C)(C)OCOCC(C)OC.O=CC1=CC=CC=C1>COC[C@H](C)OCOC(=O)C(C)(C)OCOC(C=O)CC1=CC=CC=C1
+```
+
+```smiles
+COC[C@H](C)OCOC(=O)C(C)(C)OCOC(C=O)CC1=CC=CC=C1.O=CN2CC[C@@H](CO)C[C@H]2O>COC[C@H](C)OCOC(=O)C(C)(C)OCOCc1ccc(CN2CC[C@@H](CO)C[C@H]2O)cc1
+```
+
+```smiles
+COC[C@H](C)OCOC(=O)C(C)(C)OCOCc1ccc(CN2CC[C@@H](CO)C[C@H]2O)cc1.O=CClOC(C)(C)C>COC[C@H](C)COCc1ccc([C@@]2(O)CCN(C(=O)OC(C)(C)C)C[C@@H]2CO)cc1
+```"
+"Plan the best possible route for `COC[C@H](C)COCc1ccc([C@@]2(O)CCN(C(=O)OC(C)(C)C)C[C@@H]2c2noc(-c3ccccc3CCNC(C)=O)c2Br)cc1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.966420888900757,"```smiles
+COCCOC(C)C.ClCCCl>CCO>>COC[C@H](C)COCCCl
+
+COC[C@H](C)COCCCl.CN(C)C=O>NaBH3CN>>COC[C@H](C)COCCN(C)C=O
+
+BrC1=NC(=O)O[CH](C)C1-c1ccccc1CCNC(C)=O>C1CC(=O)N(OCC(=O)OC(C)(C)C)CC1>>O=C(OC(C)(C)C)N1CC[C@H](c2noc(-c3ccccc3CCNC(C)=O)c2Br)C1
+
+COC[C@H](C)COCCN(C)C=O.O=C(OC(C)(C)C)N1CC[C@H](c2noc(-c3ccccc3CCNC(C)=O)c2Br)C1>>COC[C@H](C)COCc1ccc([C@@]2(O)CCN(C(=O)OC(C)(C)C)C[C@@H]2c2noc(-c3ccccc3CCNC(C)=O)c2Br)cc1
+```"
+"Plan the best possible route for `COC[C@H](C)COCc1ccc([C@@]2(O)CCNC[C@@H]2c2noc(-c3ccccc3CCNC(C)=O)c2Br)cc1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.8662269115448,"```smiles
+COCC(C)O.ClCCOC(=O)C>>COC[C@H](C)COCCOC(=O)C
+```
+
+```smiles
+BrC1=CN=CO1.c1ccccc1CCNC(C)=O>>c1noc(-c2ccccc2CCNC(C)=O)c1Br
+```
+
+```smiles
+c1noc(-c2ccccc2CCNC(C)=O)c1Br.COc1ccc(CCOCCOC(=O)C)cc1>>COc1ccc(CCOCCOC(=O)C)c(c1)[C@@]2(OC(=O)CC)CCNC[C@@H]2c2noc(-c3ccccc3CCNC(C)=O)c2Br
+```
+
+```smiles
+COc1ccc(CCOCCOC(=O)C)c(c1)[C@@]2(OC(=O)CC)CCNC[C@@H]2c2noc(-c3ccccc3CCNC(C)=O)c2Br.O>>COc1ccc([C@@]2(O)CCNC[C@@H]2c2noc(-c3ccccc3CCNC(C)=O)c2Br)cc1
+```
+
+```smiles
+COc1ccc([C@@]2(O)CCNC[C@@H]2c2noc(-c3ccccc3CCNC(C)=O)c2Br)cc1.COC[C@H](C)COCCOC(=O)C>>COC[C@H](C)COCc1ccc([C@@]2(O)CCNC[C@@H]2c2noc(-c3ccccc3CCNC(C)=O)c2Br)cc1
+```"
+"Plan the best possible route for `COc1cc2c(=O)[nH]c(=O)n([C@@H]3O[C@H](CO)[C@H]4OC(C)(C)O[C@H]43)c2cc1OC` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",3.1266422271728516,"```smiles
+COc1cc(OC)cc(c1N)c2ncnc2=O.CC(=O)OCC(C)(C)OCC(C)(C)OC(C)=O>>COc1cc(OC)cc(c1N)c2ncnc2=O
+```
+
+```smiles
+COc1cc(OC)cc(c1N)c2ncnc2=O.ClCCO>>COc1cc(OC)cc(c1N)c2ncnc2=OCCCl
+```
+
+```smiles
+COc1cc(OC)cc(c1N)c2ncnc2=OCCCl.O=C1NC(=O)NC1=O>>COc1cc2c(=O)[nH]c(=O)n(CCNc3ncc(O)c(OC)c3)n2cc1OC
+```
+
+```smiles
+COc1cc2c(=O)[nH]c(=O)n(CCNc3ncc(O)c(OC)c3)n2cc1OC.COC(=O)[C@H]1O[C@H](CO)[C@H]2OC(C)(C)O[C@H]21>>COc1cc2c(=O)[nH]c(=O)n([C@@H]3O[C@H](CO)[C@H]4OC(C)(C)O[C@H]43)c2cc1OC
+```"
+"Plan the best possible route for `COc1cc2c(Oc3cc(C)c(C)nc3-c3cccc(C)n3)ccnc2cc1OCCNCCO` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.6751899719238281,"```smiles
+COc1cc2c(Br)ccnc2cc1OCCNCCO.Cc1cc(C)nc(-c2cccc(C)n2)c1.Cl>>COc1cc2c(Oc3cc(C)c(C)nc3-c3cccc(C)n3)ccnc2cc1OCCNCCO
+```"
+"Plan the best possible route for `COc1cc2ncc3c(N)nc(-c4cncc(OCCN(Cc5ccc(F)cc5)C(=O)OC(C)(C)C)c4)cc3c2cc1OC` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.545380115509033,"```smiles
+COc1cc(OC)cc(CBr)c1Br.CN(Cc1ccc(F)cc1)C(=O)OC(C)(C)C>CCO>COc1cc(OC)cc(COCCN(Cc2ccc(F)cc2)C(=O)OC(C)(C)C)c1Br
+```
+```smiles
+COc1cc(OC)cc(COCCN(Cc2ccc(F)cc2)C(=O)OC(C)(C)C)c1Br.Nc1nc2cc(Br)ccc2n1> >COc1cc(OC)cc(COCCN(Cc2ccc(F)cc2)C(=O)OC(C)(C)C)c1c1nc2cc(Br)ccc2n1N
+```
+```smiles
+COc1cc(OC)cc(COCCN(Cc2ccc(F)cc2)C(=O)OC(C)(C)C)c1c1nc2cc(Br)ccc2n1N> >COc1cc2ncc3c(N)nc(-c4cncc(OCCN(Cc5ccc(F)cc5)C(=O)OC(C)(C)C)c4)cc3c2cc1OC
+```"
+"Plan the best possible route for `COc1cc2ncc3c(N)nc(-c4cncc(OCCNCc5ccc(F)cc5)c4)cc3c2cc1OC` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",4.054039239883423,"```
+/// 1. Build 4-fluorobenzylamine
+O=CC(F)ccccc1>>NCc1ccc(F)cc1
+
+/// 2. Attach 2-(2-chloroethoxy)pyrimidin-4-yl group to 4-fluorobenzylamine
+ClCCOCc1nccnc1.NCc2ccc(F)cc2>>NCCOc1ncc(-c2ccc(F)cc2)nc1
+
+/// 3. Mono‑O‑alkylate 4‑hydroxy-3-methoxybenzaldehyde (vanillin) with 2-bromoethanol
+COc1cc(C=O)ccc1O.BrCCO>>COc1cc(C=O)ccc1OCCO
+
+/// 4. Annulate vanillin-derived aldehyde with guanidine to give 2-amino-6,8-dimethoxy-4-formylquinazoline
+COc1cc(C=O)ccc1OCCO.NC(=NH)NH2>>COc1cc2ncc3c(N)nc(C=O)cc3c2cc1OCCO
+
+/// 5. Nucleophilic aromatic substitution of 4-formylquinazoline with 2-(4-fluorobenzylamino)ethoxypyrimidine and in situ reductive formyl→methylation
+COc1cc2ncc3c(N)nc(C=O)cc3c2cc1OCCO.NCCOc4ncc(-c5ccc(F)cc5)nc4>>COc1cc2ncc3c(N)nc(-c4cncc(OCCNCc5ccc(F)cc5)c4)cc3c2cc1OC
+```"
+"Plan the best possible route for `COc1ccc2C[C@H]3[C@H]4CCCC[C@@]4(CCN3C)c2c1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.8614981174468994,"```smiles
+COc1ccc(Cl)cc1.ClCCl>>COc1ccc(CCl)cc1
+```
+
+```smiles
+COc1ccc(CCl)cc1.NCC1CCOCC1>>COc1ccc(CN2CCOCC2)cc1
+```
+
+```smiles
+COc1ccc(CN2CCOCC2)cc1.C1=CC=CC=C1>>COc1ccc(CN2CC(C3=CC=CC=C3)OCC2)cc1
+```
+
+```smiles
+COc1ccc(CN2CC(C3=CC=CC=C3)OCC2)cc1>>COc1ccc2C[C@H]3[C@H]4CCCC[C@@]4(CCN3C)c2c1
+```"
+"Plan the best possible route for `COc1cccc2C(=O)c3c(O)c4CC(O)(CC(O)c4c(O)c3C(=O)c12)C(=O)CO` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",4.680551052093506,"```
+/// purchasable: 4-methoxyphthalic anhydride
+COc1cccc2C(=O)OC(=O)c12>COc1cccc2C(=O)c3cccc(C(=O)O)c3c12
+
+/// intramolecular Friedel–Crafts acylation to form tetracyclic core
+COc1cccc2C(=O)c3cccc(C(=O)O)c3c12>>COc1cccc2C(=O)c3c(O)c4CC(=O)C(=O)c4c(O)c3C(=O)c12
+
+/// geminal dihydroxymethylation on the central ring
+COc1cccc2C(=O)c3c(O)c4CC(=O)C(=O)c4c(O)c3C(=O)c12.COC(CO)O>>COc1cccc2C(=O)c3c(O)c4CC(O)(CO)C(=O)c4c(O)c3C(=O)c12
+
+/// benzylic alcohol oxidation to aldehyde
+COc1cccc2C(=O)c3c(O)c4CC(O)(CO)C(=O)c4c(O)c3C(=O)c12>>COc1cccc2C(=O)c3c(O)c4CC(O)(C=O)C(=O)c4c(O)c3C(=O)c12
+```"
+"Plan the best possible route for `COc1cccc2C(=O)c3c(O)c4C[C@@](O)(C[C@@H](OC5CC(N)CC(C)O5)c4c(O)c3C(=O)c12)C(=O)CO` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",3.1244659423828125,"```smiles
+COc1cccc1C=O.O=C1OC(=O)C=C1>>COc1cccc2C(=O)C=CC(=O)c12
+```
+
+```smiles
+COc1cccc2C(=O)C=CC(=O)c12.OCCOC=O>>COc1cccc2C(=O)c3c(OCCO)c(OC=O)c(=O)c3C(=O)c12
+```
+
+```smiles
+COc1cccc2C(=O)c3c(OCCO)c(OC=O)c(=O)c3C(=O)c12.O=CNCCO>>COc1cccc2C(=O)c3c(OCCNCC=O)c(OC=O)c(=O)c3C(=O)c12
+```
+
+```smiles
+COc1cccc2C(=O)c3c(OCCNCC=O)c(OC=O)c(=O)c3C(=O)c12.O[C@H]1CC(N)CC(C)O1>>COc1cccc2C(=O)c3c(O)c4C[C@@](O)(C[C@@H](OC5CC(N)CC(C)O5)c4c(O)c3C(=O)c12)C(=O)CO
+```"
+"Plan the best possible route for `CS(=O)(=O)CCN1CCC(c2ccc3c(c2)-n2nc(-c4ncnn4CC(F)(F)F)cc2CCO3)CC1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",5.117695093154907,"```
+/// 1. Formation of sulfide sidechain (2-chloroethyl methyl sulfide)
+CS.ClCCCl>>CSCCCl
+
+/// 2. Quaternization of piperazine with 4-(2-bromoethyl)morpholine
+N1CCNCC1.OCC2CCOCC2CCBr>>N1(CCNCC1)CC3CCOCC3CCBr
+
+/// 3. Cyclization to give N-(4-morpholin-2-ylethyl)piperazine via intramolecular SN2
+N1(CCNCC1)CC3CCOCC3CCBr>>N1(CCNCC1)CC3CCOCC3
+
+/// 4. Acylation of N-(4-morpholin-2-ylethyl)piperazine with 4-fluorobenzoic acid
+N1(CCNCC1)CC2CCOCC2.O=C(O)c3ccc(F)cc3>>O=C(c1ccc(F)cc1)N2(CCNCC2)CC3CCOCC3
+
+/// 5. Formation of N-(trifluoromethyl)imidamide (trifluoromethyl-guanidine equivalent) from aminoguanidine and CF3I
+NN=C(N)N.I(C(F)(F)F)>>NNC(=N)N(C(F)(F)F)
+
+/// 6. N-Arylation of N-(trifluoromethyl)imidamide with 4-fluorobenzamide derivative
+O=C(c1ccc(F)cc1)N2(CCNCC2)CC3CCOCC3.NNC(=N)N(C(F)(F)F)>>O=C(c1ccc(N2NC(=N)N(C(F)(F)F))cc1)N3(CCNCC3)CC4CCOCC4
+
+/// 7. Intramolecular cyclization to fused benzotriazine system with morpholine side chain
+O=C(c1ccc(N2NC(=N)N(C(F)(F)F))cc1)N3(CCNCC3)CC4CCOCC4>>c1ccc2c(c1)n3nc(-c4ncnn4C(F)(F)F)cc3CCO2N5CCN(CC5)CC
+
+/// 8. Sulfone installation (oxidation of sulfide) on sidechain precursor
+CSCCCl>>CS(=O)(=O)CCCl
+
+/// 9. Alkylation of piperazine nitrogen in fused system with 2-chloroethyl methyl sulfone
+c1ccc2c(c1)n3nc(-c4ncnn4C(F)(F)F)cc3CCO2N5CCN(CC5)CC.CS(=O)(=O)CCCl>>CS(=O)(=O)CCN1CCC(c2ccc3c(c2)-n4nc(-c5ncnn5C(F)(F)F)cc4CCO3)CC1
+```"
+"Plan the best possible route for `C[C@@H](O)C[C@H]1OC[C@@H](C2CCCCC2)N(c2cc(C#CC(C)(C)C)sc2C(=O)O)C1=O` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",3.6378159523010254,"```smiles
+CC(C)O.CC(=O)O.CC(C)C(=O)O>>C[C@@H](O)C
+```
+
+```smiles
+C[C@@H](O)C.CC(=O)OCCOC(=O)OCCO>>C[C@@H](O)C[C@H]1OCC(O)C1O
+```
+
+```smiles
+C1CCCCC1.C[C@@H](O)C[C@H]1OCC(O)C1O>>C[C@@H](O)C[C@H]1OC[C@@H](C2CCCCC2)O1
+```
+
+```smiles
+CC(C)(C)C#CC(=O)O.O=C1N(C(=O)O)SC(=S)N1>>CC(C)(C)C#CC(=O)N
+```
+
+```smiles
+CC(C)(C)C#CC(=O)N.O=C(O)C1=CC=CS1>>CC(C)(C)C#CC(=O)Nc1cccs1C(=O)O
+```
+
+```smiles
+CC(C)(C)C#CC(=O)Nc1cccs1C(=O)O.ClCOCl>>CC(C)(C)C#CC(=O)Nc1ccsc1C(=O)O
+```
+
+```smiles
+CC(C)(C)C#CC(=O)Nc1ccsc1C(=O)O.O=C1OCC(O)CN(C2CCCCC2)C1=O>>C[C@@H](O)C[C@H]1OC[C@@H](C2CCCCC2)N(c2cc(C#CC(C)(C)C)sc2C(=O)O)C1=O
+```"
+"Plan the best possible route for `C[C@@H](O)c1nc2cnc3ccsc3c2n1[C@H]1CC[C@H](CO)CC1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",3.7422373294830322,"```
+/// Step 1 – Construct substituted benzothiazole core
+Cc1ccc(Cl)sc1.ClCCl>>Cc1ccc(sc1CCl)Cl
+
+/// Step 2 – Convert benzylic dichloride to aldehyde
+Cc1ccc(sc1CCl)Cl.O=PN(CCCl)CCCl>>Cc1ccc(sc1C=O)Cl
+
+/// Step 3 – Condense with formamidine acetate to give 4‑chloro‑1H‑[1,3]thiazolo[4,5‑c]pyrimidin-5-ol
+Cc1ccc(sc1C=O)Cl.NC(=NH)O>>O=c1[nH]c2nc3sc(C)c(Cl)cc3nc2n1
+
+/// Step 4 – Chlorinate the 5‑OH (POCl3) to give 5‑chloro derivative
+O=c1[nH]c2nc3sc(C)c(Cl)cc3nc2n1.ClP(Cl)Cl>>Clc1nc2nc3sc(C)c(Cl)cc3nc2n1Cl
+
+/// Step 5 – N-1 alkylation with (S)-propylene oxide to introduce chiral benzylic alcohol side chain
+Clc1nc2nc3sc(C)c(Cl)cc3nc2n1Cl.C[C@@H](O)C>>C[C@@H](O)c1nc2cnc3cc(sc3c2n1Cl)C
+
+/// Step 6 – N-7 alkylation with (S)-4-(hydroxymethyl)cyclohexyl bromide
+C[C@@H](O)c1nc2cnc3cc(sc3c2n1Cl)C.C[C@H]1CCC(CC1)COBr>>
+C[C@@H](O)c1nc2cnc3ccsc3c2n1[C@H]1CC[C@H](CO)CC1
+```"
+"Plan the best possible route for `C[C@@H]1CCCN1CCc1nnc2cc(Br)ccc2c1O` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.652256965637207,"```smiles
+CCBr.N#CNc1nnc2cc(Br)ccc2c1O>>CCNCCc1nnc2cc(Br)ccc2c1O
+```
+```smiles
+C[C@@H]1CCCN1>>C[C@@H]1CCCN1CC
+```
+```smiles
+C[C@@H]1CCCN1CC.CCNCCc1nnc2cc(Br)ccc2c1O>>C[C@@H]1CCCN1CCc1nnc2cc(Br)ccc2c1O
+```"
+"Plan the best possible route for `C[C@@H]1CNC(=O)c2cc3cc(OCCCN4CCCCC4)ccc3n21` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",3.6298158168792725,"```
+/// Step 1: N-alkylation of 4-hydroxyquinazolin-2-one with 3-chloropropan-1-ol
+OCCCl.O=c1[nH]c2cccc(O)c2n1>>OCCOc1cccc2nc(=O)[nH]c2c1
+
+/// Step 2: Mitsunobu-type N-alkylation of pyrrolidine with 3-(4-quinazolin-2-one-4-yloxy)propan-1-ol
+OCCOc1cccc2nc(=O)[nH]c2c1.N1CCCC1>>OCCCN1CCCC1Oc1cccc2nc(=O)[nH]c2c1
+
+/// Step 3: Enantioselective N-acylation of (S)-1-aminopropan-2-ol with 4-chloro-3-nitrobenzoyl chloride
+CC(CO)N.O=C(Cl)c1ccc(Cl)c([N+](=O)[O-])c1>>CC(CO)NC(=O)c1ccc(Cl)c([N+](=O)[O-])c1
+
+/// Step 4: Intramolecular cyclization to 4-chloroquinazolin-2-one derivative (dehydrative ring closure)
+CC(CO)NC(=O)c1ccc(Cl)c([N+](=O)[O-])c1>>CC1CNC(=O)c2ccc(Cl)nc21
+
+/// Step 5: Nucleophilic aromatic substitution on 4-chloro by 3-(pyrrolidin-1-yl)propoxy to give target
+CC1CNC(=O)c2ccc(Cl)nc21.OCCCN3CCCC3Oc4cccc5nc(=O)[nH]c5c4>>C[C@@H]1CNC(=O)c2cc3cc(OCCCN4CCCCC4)ccc3n21
+```"
+"Plan the best possible route for `C[C@H](O[Si](C)(C)C(C)(C)C)[C@@H]1CC(=O)CC(C)(C)N1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.547814130783081,"```smiles
+CC(C)(C)N1CCC(C)(C)CC1.O=O>>C[C@@H]1CC(=O)CC(C)(C)N1
+```
+
+```smiles
+C[C@@H]1CC(=O)CC(C)(C)N1.CC(C)(C)[Si](Cl)(C)C(C)(C)C>>C[C@H](O[Si](C)(C)C(C)(C)C)[C@@H]1CC(=O)CC(C)(C)N1
+```"
+"Plan the best possible route for `C[C@H](c1ccccc1)N1C[C@H]2CC=C[C@@]2(C(=O)OC(C)(C)C)C1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",3.380679130554199,"```smiles
+CC(=O)OC(C)(C)C.O=C=O.CC(C)(C)O.CC(C)(C)Br>>CC(=O)OC(C)(C)C(=O)C(C)(C)OC(=O)OC(C)(C)C
+```
+
+```smiles
+CC(=O)OC(C)(C)C(=O)C(C)(C)OC(=O)OC(C)(C)C.CC(C)(C)O>>CC(=O)OC(C)(C)C(=O)C(C)(C)O
+```
+
+```smiles
+CC(=O)OC(C)(C)C(=O)C(C)(C)O>>CC(=O)OC(C)(C)C(=O)C(C)(C)Br
+```
+
+```smiles
+ClCCN1CCCCC1.CC(=O)OC(C)(C)C(=O)C(C)(C)Br>>CC(=O)OC(C)(C)C(=O)C(C)(C)N1CCCCC1
+```
+
+```smiles
+CC(=O)OC(C)(C)C(=O)C(C)(C)N1CCCCC1>>CC(=O)OC(C)(C)C(=O)[C@@](C)(C)N1CCCCC1
+```
+
+```smiles
+BrC[C@H](c1ccccc1)N>>NC[C@H](c1ccccc1)Br
+```
+
+```smiles
+NC[C@H](c1ccccc1)Br.CC(=O)OC(C)(C)C(=O)[C@@](C)(C)N1CCCCC1>>C[C@H](c1ccccc1)N1C[C@H]2CCN[C@@]2(C(=O)OC(C)(C)C)C1
+```
+
+```smiles
+C[C@H](c1ccccc1)N1C[C@H]2CCN[C@@]2(C(=O)OC(C)(C)C)C1>>C[C@H](c1ccccc1)N1C[C@H]2CC=C[C@@]2(C(=O)OC(C)(C)C)C1
+```"
+"Plan the best possible route for `C[C@H](c1ccccc1)N1C[C@]2(C(=O)OC(C)(C)C)C=CC[C@@H]2C1=S` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",3.1060140132904053,"```
+/// Step 1: Benzylation of alanine methyl ester
+CC(=O)OC[C@H](N)C.c1ccccc1CCl>>C[C@H](c1ccccc1)NCC(=O)OC
+
+/// Step 2: Protection of the α-amine as N-Boc
+C[C@H](c1ccccc1)NCC(=O)OC.O=C(OC(=O)O)C(C)(C)C>>CC(C)(C)OC(=O)N[C@H](C c1ccccc1)CC(=O)OC
+
+/// Step 3: Cyclization with thiourea to form the thiazolidin-2-imine core
+CC(C)(C)OC(=O)N[C@H](C c1ccccc1)CC(=O)OC.NC(=S)N>>C[C@H](c1ccccc1)N1CC(=S)NC1CC(=O)OC
+
+/// Step 4: Formation of the bicyclic enone (intramolecular condensation)
+C[C@H](c1ccccc1)N1CC(=S)NC1CC(=O)OC>>C[C@H](c1ccccc1)N1C[C@]2(C=CC(=O)O)C=CC[C@@H]2C1=S
+
+/// Step 5: tert-Butyl esterification of the carboxylic acid
+C[C@H](c1ccccc1)N1C[C@]2(C=CC(=O)O)C=CC[C@@H]2C1=S.CC(C)(C)O>>C[C@H](c1ccccc1)N1C[C@]2(C(=O)OC(C)(C)C)C=CC[C@@H]2C1=S
+```"
+"Plan the best possible route for `C[C@H]1[C@H](NC(=O)C(=N/OC(C)(C)C(O)=O)\c2csc([NH3+])n2)C(=O)N1[S]([O-])(=O)=O` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",5.784949064254761,"```
+/// tert-butyl N-hydroxycarbamate
+O=C(Cl)NOC(C)(C)C.OCC(O)CO>>CC(C)(C)OC(=NO)N
+
+/// 2-aminothiazole-4-ylammonium chloride
+Cc1nccs1.NH3.Cl>>Nc1nccs1.NH4Cl
+
+/// guanidinylation to tert-butyl N-hydroxycarbamate–protected amidino intermediate
+Nc1nccs1.CC(C)(C)OC(=NO)N.C(Cl)Cl>>Nc1nccs1C(=NOC(C)(C)C(O)=O)N
+
+/// formation of 3-aminopipecolic acid from 3-aminopiperidone-2-carboxylic acid
+N[C@H]1CCC(=O)N[C@@H](CO)C1C(=O)O>>N[C@H]1CCC[C@H](N)C1C(=O)O
+
+/// urea/acylation of 3-aminopipecolic acid with protected amidino acid chloride
+N[C@H]1CCC[C@H](N)C1C(=O)O.Nc1nccs1C(=NOC(C)(C)C(O)=O)N.O=C(Cl)Cl>>
+C[C@H]1[C@H](NC(=O)C(=NOC(C)(C)C(O)=O)c2csc(N)n2)C(=O)N1
+
+/// sulfonylation to give N-sulfamide (sultam) ring
+C[C@H]1[C@H](NC(=O)C(=NOC(C)(C)C(O)=O)c2csc(N)n2)C(=O)N1.O=SCl2>>
+C[C@H]1[C@H](NC(=O)C(=NOC(C)(C)C(O)=O)c2csc(N)n2)C(=O)N1S(=O)(=O)Cl
+
+/// hydrolysis and neutralization to final target (sulfamide chloride to sulfamate, ammonium formation)
+C[C@H]1[C@H](NC(=O)C(=NOC(C)(C)C(O)=O)c2csc(N)n2)C(=O)N1S(=O)(=O)Cl.O>>C[C@H]1[C@H](NC(=O)C(=N/OC(C)(C)C(O)=O)\c2csc([NH3+])n2)C(=O)N1S(=O)(=O)[O-]
+```"
+"Plan the best possible route for `C[Si](C)(C)CCOCn1cc(C2CCc3c(C(=O)O)nn(COCC[Si](C)(C)C)c3C2)cn1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.880035877227783,"```smiles
+CCOCCBr.C[Si](C)(C)Cl>>C[Si](C)(C)CCOCCBr
+
+BrCCOCn1ccnc1.ClCCN(CCCl)CCCl>>ClCCN(CCOCn1ccnc1)CCCl
+
+ClCCN(CCOCn1ccnc1)CCCl.NN.CS(=O)Cl.CC(=O)O>>N#CN(CCOCn1ccnc1)CCN#C
+
+N#CN(CCOCn1ccnc1)CCN#C.Cc1cnnn1.C1CC[C@H](C2=NN(CO)C(=O)O2)C1>>C2CCc3c(C(=O)O)nn(COCCN(CCOCn1ccnc1)CCOC)c3C2
+
+C2CCc3c(C(=O)O)nn(COCCN(CCOCn1ccnc1)CCOC)c3C2.C[Si](C)(C)Cl>>C[Si](C)(C)CCOCn1cc(C2CCc3c(C(=O)O)nn(COCC[Si](C)(C)C)c3C2)cn1
+```"
+"Plan the best possible route for `ClCc1ccc2c(c1)Nc1nccnc1S2` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",3.479295015335083,"```
+/// Step 1: Nucleophilic aromatic substitution to form 2-aminobenzenethiol
+Clc1cccc(Cl)c1.Nc1nccnc1S>>Nc1nccnc1Sc1ccccc1
+
+/// Step 2: Electrophilic chloromethylation on the aniline ring
+Nc1nccnc1Sc1ccccc1.ClCCl>>ClCc1cccc2c1Nc1nccnc1S2
+```"
+"Plan the best possible route for `Cn1oc(=O)nc1/C(=N\OCc1cccc(N)n1)c1ccccc1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.4206829071044922,"```smiles
+COC#N.Nc1cccc(C=O)n1>>Cn1oc(=O)nc1C(=NCc1cccc(N)n1)C=O
+```
+
+```smiles
+Cn1oc(=O)nc1C(=NCc1cccc(N)n1)C=O.CO>>Cn1oc(=O)nc1/C(=N\OCc1cccc(N)n1)c1ccccc1
+```"
+"Plan the best possible route for `Cn1oc(=O)nc1/C(=N\OCc1cccc(NC(=O)OCCc2ccccc2)n1)c1ccccc1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.101578950881958,"```smiles
+COCl.COc1cccc(NC(=O)OCCc2ccccc2)n1>>COc1cccc(NC(=O)OCCc2ccccc2)n1
+```
+```smiles
+COc1cccc(NC(=O)OCCc2ccccc2)n1.NC(=O)C(=O)Cl>>NC(=O)C(=O)Nc1ncccc1OC(=O)OCCc2ccccc2
+```
+```smiles
+NC(=O)C(=O)Nc1ncccc1OC(=O)OCCc2ccccc2.COC(=O)Cl>>Cn1oc(=O)nc1OC(=O)OCCc1ccccc1
+```
+```smiles
+Cn1oc(=O)nc1OC(=O)OCCc1ccccc1.NC(=O)C(=O)O.c1ccccc1C=O>>Cn1oc(=O)nc1/C(=N\OCc1cccc(NC(=O)OCCc2ccccc2)n1)c1ccccc1
+```"
+"Plan the best possible route for `Cn1oc(=O)nc1/C(=N\\OCc1cccc(N)n1)c1ccccc1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",4.130133152008057,"```
+/// 1. N-benzylation of 2-nitroaniline
+O=[N+]([O-])c1ccccc1N.CCCl>>O=[N+]([O-])c1ccccc1NCC
+
+/// 2. Chemoselective reduction of nitro to give 2-aminobenzylamine
+O=[N+]([O-])c1ccccc1NCC>>Nc1ccccc1NCC
+
+/// 3. N-formylation of the aniline (more nucleophilic than benzylic NH2)
+Nc1ccccc1NCC.O=CO>>O=CNc1ccccc1NCC
+
+/// 4. Condensation with benzaldehyde to form imine
+O=CNc1ccccc1NCC.O=CCc1ccccc1>>O=CNc1ccccc1NCC=Nc1ccccc1
+
+/// 5. O-methylation of formamide oxygen to give N-methoxy-N-methylcarbamimidoyl fragment
+O=CNc1ccccc1NCC=Nc1ccccc1.CI>>Cn1oc(=N)c(NCC=Nc2ccccc2)c1c3ccccc3
+
+/// 6. Benzylic oxidation and intramolecular condensation to close the 1,2,4-oxadiazole-3-one ring
+Cn1oc(=N)c(NCC=Nc2ccccc2)c1c3ccccc3.O>>Cn1oc(=O)nc1/C(=N\O)c2ccccc2
+```"
+"Plan the best possible route for `Cn1oc(=O)nc1/C(=N\\OCc1cccc(NC(=O)OCCc2ccccc2)n1)c1ccccc1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.4524588584899902,"```smiles
+COCl.COc1n[nH]c(=O)o1>>Cn1oc(=O)nc1OC
+```
+
+```smiles
+Cn1oc(=O)nc1OC.OCCc1ccccc1>>Cn1oc(=O)nc1OCCc1ccccc1
+```
+
+```smiles
+Cn1oc(=O)nc1OCCc1ccccc1.O=C(OCl)c1ccccc1>>Cn1oc(=O)nc1OCCc1cccc(NC(=O)Cl)n1
+```
+
+```smiles
+Cn1oc(=O)nc1OCCc1cccc(NC(=O)Cl)n1.OCCc1ccccc1>>Cn1oc(=O)nc1OCCc1cccc(NC(=O)OCCc2ccccc2)n1
+```
+
+```smiles
+Cn1oc(=O)nc1OCCc1cccc(NC(=O)OCCc2ccccc2)n1.Cc1n[nH]c2ccccc12>>Cn1oc(=O)nc1/C(=N\OCc2cccc(NC(=O)OCCc3ccccc3)n2)c2ccccc2
+```"
+"Plan the best possible route for `FC(F)(F)Cn1ncnc1-c1cc2n(n1)-c1cc(C3CCNCC3)ccc1OCC2` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.4237051010131836,"```smiles
+FC(F)(F)CI.COc1ccc2cc(-n3nccn3)ccc2n1.ClCCNCCCl>>FC(F)(F)Cn1ncnc1-c1cc2n(n1)-c1cc(C3CCNCC3)ccc1OCC2
+```"
+"Plan the best possible route for `N#Cc5ccc4Oc1ccccc1C2=C(CCN(CC2)CC3CCCC3)c4c5` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.944422721862793,"```smiles
+CCN(CC)CC.COC(=O)c1ccccc1>>CCN(CC)CCc1cccc(C(=O)OC)c1
+```
+
+```smiles
+CCN(CC)CCc1cccc(C(=O)OC)c1.Nc1cccc2ccccc12>>CCN(CC)CCc1cccc(C(=O)Nc2cccc3ccccc23)c1
+```
+
+```smiles
+CCN(CC)CCc1cccc(C(=O)Nc2cccc3ccccc23)c1>>N#Cc1cccc2Oc3ccccc3C4=C(CCN(CC4)CC5CCCC5)c2c1
+```"
+"Plan the best possible route for `NC(=O)CN1CCC(c2ccc3c(c2)-n2nc(-c4ncnn4CC(F)(F)F)cc2CCO3)CC1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",10.645610094070435,"```
+/// 1. N-Boc protection of aminoacetamide
+NC(=O)CN1CCC(c2ccc3c(c2)-n2nc(-c4ncnn4CC(F)(F)F)cc2CCO3)CC1.O=C(O)OC(C)(C)C>>CC(C)(C)OC(=O)NCC(=O)N1CCC(c2ccc3c(c2)-n2nc(-c4ncnn4CC(F)(F)F)cc2CCO3)CC1
+
+/// 2. N-Boc-2-bromoacetamide from bromoacetyl bromide and BocNH2
+BrCC(=O)Br.CC(C)(C)OC(=O)N>>CC(C)(C)OC(=O)NCC(=O)Br
+
+/// 3. Alkylation of piperazine with N-Boc-2-bromoacetamide
+N1CCNCC1.CC(C)(C)OC(=O)NCC(=O)Br>>CC(C)(C)OC(=O)NCC(=O)N1CCNCC1
+
+/// 4. Mono‑benzylation of N‑Boc‑glycinamide piperazine with 4‑fluorobenzyl bromide
+CC(C)(C)OC(=O)NCC(=O)N1CCNCC1.FC1=CC=CC=C1CBr>>CC(C)(C)OC(=O)NCC(=O)N1CCN(CC1)Cc1ccc(F)cc1
+
+/// 5. Nitration of 4‑fluorobenzyl piperazinylacetamide to 3‑nitro derivative
+CC(C)(C)OC(=O)NCC(=O)N1CCN(CC1)Cc1ccc(F)cc1.[O-][N+](=O)O>>CC(C)(C)OC(=O)NCC(=O)N1CCN(CC1)Cc1cc([N+](=O)[O-])ccc1F
+
+/// 6. Reduction of aryl nitro to aniline
+CC(C)(C)OC(=O)NCC(=O)N1CCN(CC1)Cc1cc([N+](=O)[O-])ccc1F>>CC(C)(C)OC(=O)NCC(=O)N1CCN(CC1)Cc1cc(N)ccc1F
+
+/// 7. Diazotization and intramolecular cyclization to benzimidazole ring
+CC(C)(C)OC(=O)NCC(=O)N1CCN(CC1)Cc1cc(N)ccc1F.N#N>>CC(C)(C)OC(=O)NCC(=O)N1CCN(CC1)c1ccc2[nH]nc(-c3ncnn3CC(F)(F)F)c2c1
+
+/// 8. N1‑Alkylation of benzimidazole with 2‑(2‑hydroxyethyl)oxirane (to give fused morpholine ring)
+CC(C)(C)OC(=O)NCC(=O)N1CCN(CC1)c1ccc2[nH]nc(-c3ncnn3CC(F)(F)F)c2c1.OCC1CO1>>CC(C)(C)OC(=O)NCC(=O)N1CCC(c2ccc3c(c2)[n]2[n]c(-c4ncnn4CC(F)(F)F)cc2CCO3)CC1
+
+/// 9. Global Boc‑deprotection to give target
+CC(C)(C)OC(=O)NCC(=O)N1CCC(c2ccc3c(c2)[n]2[n]c(-c4ncnn4CC(F)(F)F)cc2CCO3)CC1>>NC(=O)CN1CCC(c2ccc3c(c2)-n2nc(-c4ncnn4CC(F)(F)F)cc2CCO3)CC1
+```"
+"Plan the best possible route for `O.C[C@H](O)[C@@H]1[C@H]2CC(=C(N2C1=O)C(O)=O)SCCN=CN` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",4.192331075668335,"```
+/// Step 1: Construct N-(2-bromoethyl)thiourea
+NC(=S)N.C(CBr)Br>>NC(=S)NCCBr
+
+/// Step 2: Cyclize to 2-mercaptoethyl‑guanidine
+NC(=S)NCCBr>>NCCNC(=N)N
+
+/// Step 3: Thioetherification with 2‑bromoethanethiol
+NCCNC(=N)N.BrCCS>>NCCN=CNCCS
+
+/// Step 4: Form the bicyclic uracil‑thioester core (maleic anhydride + thiourea + formaldehyde)
+O=C1OC(=O)C=C1.NC(=S)N.CO>>O=C1N2C(=O)[C@H](C(O)=O)=C(SCCN=CN)[C@H]2C1
+
+/// Step 5: Asymmetric aldol addition of glycolaldehyde to install the chiral side chain
+O=C[C@H](O)CO.O=C1N2C(=O)[C@H](C(O)=O)=C(SCCN=CN)[C@H]2C1>>
+O.C[C@H](O)[C@@H]1[C@H]2CC(=C(N2C1=O)C(O)=O)SCCN=CN
+```"
+"Plan the best possible route for `O.N[C@@H](C(=O)NC1C2CCC(=C(N2C1=O)C(O)=O)Cl)c3ccccc3` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",4.396752834320068,"```
+/// Step 1: Formation of the chiral benzamide core from (S)-phenylglycine
+N[C@@H](C(=O)O)c1ccccc1.COC(=O)Cl>>N[C@@H](C(=O)NC(=O)OC)c1ccccc1
+
+/// Step 2: Conversion of the terminal carbamate to the corresponding acyl chloride
+N[C@@H](C(=O)NC(=O)OC)c1ccccc1.CCl>>O=C(Cl)N[C@@H](C(=O)NC(=O)OC)c1ccccc1
+
+/// Step 3: Assembly of the chloromaleimide ring by acylation of 2-chloromaleic anhydride
+O=C(Cl)N[C@@H](C(=O)NC(=O)OC)c1ccccc1.O=C1OC(=O)C(=C1)Cl>>ClC1C2C(=O)N(C(=O)OC)[C@@H](C(=O)N[C@@H](C(=O)NC(=O)OC)c3ccccc3)C2(=O)O1
+
+/// Step 4: Selective base-promoted ring opening / decarboxylation to give the target maleimide amide
+ClC1C2C(=O)N(C(=O)OC)[C@@H](C(=O)N[C@@H](C(=O)NC(=O)OC)c3ccccc3)C2(=O)O1>>O.N[C@@H](C(=O)NC1C2CCC(=C(N2C1=O)C(O)=O)Cl)c3ccccc3
+```"
+"Plan the best possible route for `O=C(CO)N1CCC(c2ccc3c(c2)-n2nc(-c4ncnn4CC(F)(F)F)cc2CCO3)CC1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.941572904586792,"```smiles
+N1CCC(CC1)CO.COc1ccc(Cl)cc1.ClCCO>>O=C(CO)N1CCC(CC1)CO
+```
+
+```smiles
+CC(F)(F)F.N#CN=C=Nc1nccn1CC(F)(F)F>>c1ncnn1CC(F)(F)F
+```
+
+```smiles
+O=C(CO)N1CCC(CC1)CO.c1ccc(Cl)c(Cl)c1.c1ncnn1CC(F)(F)F>>O=C(CO)N1CCC(c2ccc3c(c2)-n2nc(-c4ncnn4CC(F)(F)F)cc2CCO3)CC1
+```"
+"Plan the best possible route for `O=C(Nc1cccc(Cl)c1)N1CCc2[nH]nc(C(=O)N3CC(F)CO3)c2C1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",6.004896879196167,"```
+/// Step 1: Acylation of 2‑chloroaniline with chloroacetyl chloride
+Nc1cccc(Cl)c1.CC(=O)ClCl>>NC(=O)CClc1cccc(Cl)c1
+
+/// Step 2: N‑alkylation with aminoacetaldehyde dimethyl acetal
+NC(=O)CClc1cccc(Cl)c1.CN(CCOC(C)(OC)OC)CC>>O=C(Nc1cccc(Cl)c1)N(CCNCC(OC)(OC)O)C
+
+/// Step 3: Cyclization to N‑(2‑chloro‑ethyl)morpholine amide (acidic hydrolysis of acetal and intramolecular cyclization)
+O=C(Nc1cccc(Cl)c1)N(CCNCC(OC)(OC)O)C>>O=C(Nc1cccc(Cl)c1)N1CCOCC1
+
+/// Step 4: N‑formylation on morpholine nitrogen
+O=C(Nc1cccc(Cl)c1)N1CCOCC1.COC=O>>O=CN1CCOCC1NC(=O)c1cccc(Cl)c1
+
+/// Step 5: Oxidation of formamide to N‑formyl‑N‑oxide (simplified as direct conversion)
+O=CN1CCOCC1NC(=O)c1cccc(Cl)c1>>O=CN(=O)1CCOCC1NC(=O)c1cccc(Cl)c1
+
+/// Step 6: N‑fluoroalkylation and cyclization to N‑formyl‑N‑(2‑fluoro‑2‑hydroxyethyl)morpholine (using 2‑fluoroethanol, simplified)
+O=CN(=O)1CCOCC1NC(=O)c1cccc(Cl)c1.FCCO>>O=CN(CC(O)F)1CCOCC1NC(=O)c1cccc(Cl)c1
+
+/// Step 7: Cyclization to 2‑(fluoromethyl)‑2‑oxazolidinone (intramolecular carbonate formation)
+O=CN(CC(O)F)1CCOCC1NC(=O)c1cccc(Cl)c1>>O=C1OCC(F)N1C(=O)Nc1cccc(Cl)c1
+
+/// Step 8: Construction of 1‑methyl‑1,3,4‑triazol‑5‑one (condensation of methyl hydrazine and urea; shown as direct formation)
+CNNC(=O)N>>Cn1nnc(=O)[nH]1
+
+/// Step 9: N‑alkylation of triazolone with (2‑bromoethyl)morpholine amide
+Cn1nnc(=O)[nH]1.O=C(Nc1cccc(Cl)c1)N1CCOCC1CCBr>>O=C(Nc1cccc(Cl)c1)N1CCc2[nH]nc(C(=O)N3CCOCC3CBr)c2C1
+
+/// Step 10: Substitution of bromomethyl with fluoromethyl to give final target
+O=C(Nc1cccc(Cl)c1)N1CCc2[nH]nc(C(=O)N3CCOCC3CBr)c2C1.F- >>O=C(Nc1cccc(Cl)c1)N1CCc2[nH]nc(C(=O)N3CC(F)CO3)c2C1
+```"
+"Plan the best possible route for `O=C(OCc1ccccc1)N1CC[C@H]2CCCN(CCc3ccccc3)C[C@H]21` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.0897600650787354,"```smiles
+O=C(Cl)OCCO.C1CCNCC1.Clc1ccccc1>>O=C(OCCN1CCCCC1)CN(CCCl)c2ccccc2
+
+O=C(OCCN1CCCCC1)CN(CCCl)c1ccccc1.ClCCl.c1ccccc1OCCO>>O=C(OCc1ccccc1)N1CCN(CCCl)CC1
+
+O=C(OCc1ccccc1)N1CCN(CCCl)CC1.C1CCNCC1>>O=C(OCc1ccccc1)N1CC[C@H]2CCCN(CCCl)C[C@H]21
+
+O=C(OCc1ccccc1)N1CC[C@H]2CCCN(CCCl)C[C@H]21.c1ccccc1[CH2][Br]>>O=C(OCc1ccccc1)N1CC[C@H]2CCCN(CCc3ccccc3)C[C@H]21
+```"
+"Plan the best possible route for `O=S(=O)(C#Cc1ccc(Cl)cc1)N1CCNCC1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.105916976928711,"```smiles
+Clc1ccc(C#CBr)cc1.O=S(=O)(Cl)N1CCNCC1>>O=S(=O)(C#Cc1ccc(Cl)cc1)N1CCNCC1
+```"
+"Plan the best possible route for `OCCN1CCC(c2ccc3c(c2)-n2nc(-c4ncnn4CC(F)(F)F)cc2CCO3)CC1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.624878168106079,"```smiles
+Fc1(F)C(F)(F)CNCCn1nnc1-c1ccc2c(c1)CCN1CCC(OCCO)CC1O2.Cl>>OCCN1CCC(c2ccc3c(c2)-n2nc(-c4ncnn4CC(F)(F)F)cc2CCO3)CC1
+```"
+"Plan the best possible route for `OC[C@H]1C[C@@H](c2cnn3c(N[C@H]4CCc5ccccc54)ncnc23)C[C@@H]1O` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",4.8581907749176025,"```smiles
+O=CC(O)CO.ClCCCl>>OC[C@H]1CC(O)CC1O
+```
+
+```smiles
+c1ccc2c(c1)CCN2CCl.c1ccc2c(c1)CCN2Cl>>ClCCN1CCc2ccccc2C1
+```
+
+```smiles
+ClCCN1CCc2ccccc2C1.NC(=O)c1ncnn1Cl>>Nc1ncnn1N2CCc3ccccc3C2
+```
+
+```smiles
+Nc1ncnn1N2CCc3ccccc3C2.NH3.c1nc(Cl)ncc1Cl>>Nc1ncnn1N2CCc3ccccc3C2c4cnn5ncnc(c45)N
+```
+
+```smiles
+OC[C@H]1CC(O)CC1O.Nc1ncnn1N2CCc3ccccc3C2c4cnn5ncnc(c45)N>>OC[C@H]1C[C@@H](c2cnn3c(N[C@H]4CCc5ccccc54)ncnc23)C[C@@H]1O
+```"
+"Plan the best possible route for `O[C@H]1C[C@H](c2cnn3c(N[C@H]4CCc5ccccc54)ncnc23)C=C1COCc1ccccc1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.8362598419189453,"```smiles
+O=CC=CCOCc1ccccc1.O=Cc1ccccc1>>OCC1=CC[C@H](COCc2ccccc2)O1
+```
+
+```smiles
+OCC1=CC[C@H](COCc2ccccc2)O1.COc1ncnc2n(cnc12)c1ccncc1>>O[C@H]1C[C@H](c2cnn3c(N[C@H]4CCc5ccccc54)ncnc23)C=C1COCc1ccccc1
+```"
+"Plan the best possible route for `Oc1ccc2c(c1)[C@H](c1ccc(OCCN3CCCC3)cc1)[C@H](c1ccccc1)CO2` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.253761053085327,"```smiles
+COc1ccc(C(=O)Cl)cc1.PCC(=O)O>>COc1ccc(C(=O)CP)cc1
+```
+
+```smiles
+COc1ccc(C(=O)CP)cc1.BBr>>COc1ccc(C(=O)CBr)cc1
+```
+
+```smiles
+COc1ccc(C(=O)CBr)cc1.Oc1ccc(C=O)cc1>>COc1ccc(C(=O)[C@H](c2ccc(O)cc2)c2ccccc2)cc1
+```
+
+```smiles
+COc1ccc(C(=O)[C@H](c2ccc(O)cc2)c2ccccc2)cc1>>Oc1ccc2c(c1)[C@H](c1ccc(O)cc1)[C@H](c1ccccc1)CO2
+```
+
+```smiles
+Oc1ccc2c(c1)[C@H](c1ccc(O)cc1)[C@H](c1ccccc1)CO2.ClCCN3CCCC3>>Oc1ccc2c(c1)[C@H](c1ccc(OCCN3CCCC3)cc1)[C@H](c1ccccc1)CO2
+```"
+"Plan the best possible route for `Oc1ccc2c3c(ccc2c1)Cc1ccccc1OC3c1ccc(OCCN2CCCCC2)cc1` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.275635004043579,"```smiles
+COc1ccc2c(c1)C(O)Cc1ccccc1C2OCCN2CCCCC2.O=PCl3>>Oc1ccc2c3c(ccc2c1)Cc1ccccc1OC3c1ccc(OCCN2CCCCC2)cc1
+```"
+"Plan the best possible route for `Oc5ccc4CC2C1CCOCC1(CCN2CC3CC3)c4c5` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.753622055053711,"```smiles
+Oc1ccc(Br)c2cccc12.O=Cc1ccccc1>>Oc1ccc(Cc2ccccc2)c2cccc12
+```
+
+```smiles
+BrCCN(CCBr)CCBr.C1CC1>>N(CCBr)(CCBr)CCBr
+```
+
+```smiles
+Oc1ccc(Cc2ccccc2)c2cccc12.N(CCBr)(CCBr)CCBr>>Oc1ccc4CCN(CCN(CCBr)CCBr)Cc5cccc(O)c45
+```"
+"Plan the best possible route for `[Br-].CC(C)[N+](C)(CCOC(=O)C1c2ccccc2Oc3ccccc13)C(C)C` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.1847240924835205,"```
+BrCCOC(=O)C1c2ccccc2Oc3ccccc13.CC(C)N(C)C>>[Br-].CC(C)[N+](C)(CCOC(=O)C1c2ccccc2Oc3ccccc13)C(C)C
+```"
+"Plan the best possible route for `[C@@H]3(N(C1CCC1)C2CCC2)CC4=C(OC3)C(=CC=C4C(=O)N)F` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.627237319946289,"```smiles
+FC(F)(F)C1=CC=C(C=C1)Br.COC(=O)C=CC(=O)N>>COC(=O)C(=CC(=O)N)C1=CC(C(F)(F)F)=CC=C1
+```
+
+```smiles
+COC(=O)C(=CC(=O)N)C1=CC(C(F)(F)F)=CC=C1.Cl>>C1=CC(C(F)(F)F)=CC=C1C(=CC(=O)N)OC
+```
+
+```smiles
+C1=CC(C(F)(F)F)=CC=C1C(=CC(=O)N)OC.C1CCNCC1>>C1=CC(C(F)(F)F)=CC=C1C(=CC(=O)N)N2CCCCC2
+```
+
+```smiles
+C1=CC(C(F)(F)F)=CC=C1C(=CC(=O)N)N2CCCCC2.O>>O=C1C(=CC(=O)N)C2=CC(OC1)(C(F)(F)F)C=CC2
+```
+
+```smiles
+O=C1C(=CC(=O)N)C2=CC(OC1)(C(F)(F)F)C=CC2.C1CC1.C1CCC1>>[C@@H]3(N(C1CCC1)C2CCC2)CC4=C(OC3)C(=CC=C4C(=O)N)F
+```"
+"Plan the best possible route for `[C@H](O)(/C=C/C1=C(C3=C(OC12CCCC2)C=CC=C3)C4=CC=C(F)C=C4)C[C@H](O)CC(OCC)=O` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.3857040405273438,"```smiles
+CCOC(=O)CCC(O)CO.CC(=O)OC/C=C/C1=C(C2=CC=C(F)C=C2)C3=CC=CC=C3OC4CCCC4>>[C@H](O)(/C=C/C1=C(C3=C(OC12CCCC2)C=CC=C3)C4=CC=C(F)C=C4)C[C@H](O)CC(OCC)=O
+```"
+"Plan the best possible route for `[C@H]13[C@H](C[C@@H]1C2=CC=C(F)C=C2)CN(C3)CCN4C(=O)C5=C(NC4=O)C=CC=C5` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.572080135345459,"```smiles
+FC1=CC=CC=C1.CC(=O)NCCN>>CC(=O)N(CCN)C1=CC=CC=C1F
+
+CC(=O)N(CCN)C1=CC=CC=C1F.C1CC2=CC=CC=C2C1>>C1CC2=CC=CC=C2[C@@H](C)N(CCN)C3=CC=CC=C3F
+
+C1CC2=CC=CC=C2[C@@H](C)N(CCN)C3=CC=CC=C3F.O=C1NC(=O)C2=CC=CC=C12>>O=C1NC(=O)N2CCN(CC3=CC=CC=C3F)[C@@H](C4CC5=CC=CC=C5C4)C2C1
+
+O=C1NC(=O)N2CCN(CC3=CC=CC=C3F)[C@@H](C4CC5=CC=CC=C5C4)C2C1>>[C@H]13[C@H](C[C@@H]1C2=CC=C(F)C=C2)CN(C3)CCN4C(=O)C5=C(NC4=O)C=CC=C5
+```"
+"Plan the best possible route for `[C@H]15C3=C(CCC2=C1C=CC=C2)C=CC=C3[C@H]4C[C@](C(C)C)(O)CCN4C5` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",3.928148031234741,"```
+/// Step 1 – Build 1‑methyl‑1,2,3,4‑tetrahydroisoquinoline (N‑Me‑THIQ)
+COC1=CC=CC=C1OC(CN2CCCCC2)=O>>
+// N-methyl-1,2,3,4-tetrahydroisoquinoline (simplified end product)
+CN1CCc2ccccc2C1
+
+/// Step 2 – Friedel–Crafts acylation to introduce the tetralone side chain
+CN1CCc2ccccc2C1.CC(C)CC(=O)Cl>>
+// N-(2-(3,4-dihydronaphthalen-1-yl)methyl)-N-methyl-1,2,3,4-tetrahydroisoquinoline
+CN1CCc2ccccc2C1CC3CCc4ccccc4C3C(C)C=O
+
+/// Step 3 – Intramolecular cyclization to form the fused tetracyclic core
+CN1CCc2ccccc2C1CC3CCc4ccccc4C3C(C)C=O>>
+// tetracyclic ketone core (fused isoquinoline–tetralin with isobutyl keto side chain)
+CC(C)C[C@]5(O)CCN4C[C@H]5C6=CC=CC=C6C7=CC=CC=C7C4
+
+/// Step 4 – Stereoselective reduction of ketone to tertiary alcohol
+CC(C)C[C@]5(O)CCN4C[C@H]5C6=CC=CC=C6C7=CC=CC=C7C4>[H]>
+// final target
+[C@H]15C3=C(CCC2=C1C=CC=C2)C=CC=C3[C@H]4C[C@](C(C)C)(O)CCN4C5
+```"
+"Plan the best possible route for `[C@H]4(CC3C2=C1C(=C[N](C1=CC=C2)C(C)C)CC3N(C4)C)C(NC5CCCCC5)=O` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",3.9215221405029297,"```
+/// Step 1 – N‑methylation of 2‑aminopyridine
+Nc1ccccn1.CI>>CNc1ccccn1
+
+/// Step 2 – N‑tert‑butylation of N‑methyl‑2‑aminopyridine
+CNc1ccccn1.CC(C)(C)Cl>>CC(C)(C)Nc1ccccn1
+
+/// Step 3 – Electrophilic bromination at the 3‑position of the pyridine ring
+CC(C)(C)Nc1ccccn1.BrBr>>CC(C)(C)Nc1ccc(Br)cn1
+
+/// Step 4 – Suzuki coupling with a cyclohexenyl boronate to install the future fused ring handle
+CC(C)(C)Nc1ccc(Br)cn1.CC1=CCC(=CC1)B(O)O>>CC(C)(C)Nc1ccc(C2=CCC(=CC2))cn1
+
+/// Step 5 – Intramolecular radical cyclization to form the tricyclic aza‑skeleton
+CC(C)(C)Nc1ccc(C2=CCC(=CC2))cn1>>CC(C)(C)N2C3CCC2c4c3cccc4N
+
+/// Step 6 – Oxidation of bridgehead amine to lactam carbonyl
+CC(C)(C)N2C3CCC2c4c3cccc4N.O>>CC(C)(C)N2C3CCC2c4c3cccc4C(=O)N
+
+/// Step 7 – Reductive N‑methylation on exocyclic aniline nitrogen
+CC(C)(C)N2C3CCC2c4c3cccc4C(=O)N.CI.O>>CC(C)(C)N2C3CCC2c4c3cccc4C(=O)N(C)
+
+/// Step 8 – Reductive N‑alkylation with piperidine to give the final amide side chain
+CC(C)(C)N2C3CCC2c4c3cccc4C(=O)N(C).N5CCCCC5.O>>[C@H]4(CC3C2=C1C(=C[N](C1=CC=C2)C(C)C)CC3N(C4)C)C(NC5CCCCC5)=O
+```"
+"Plan the best possible route for `[C@]134[C@@H]([C@H](CC2=C1C=C(C)C=C2)N(C)CC3)CCCC4` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.3823881149291992,"```smiles
+CC(C)NCCN(C)CC1CCCCC1.CC1=CC(C)=CC=C1C=O>>CC(C)NCCN(C)CC1CCCCC1.CC1=CC(C)=CC=C1[CH-]>>[C@]134[C@@H]([C@H](CC2=C1C=C(C)C=C2)N(C)CC3)CCCC4
+```"
+"Plan the best possible route for `[C@]134[C@@H]([C@H](CC2=C1C=C(O)C=C2)N(C)CC3)CCCC4` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.6754939556121826,"```
+/// 1. Build 3,4-dihydronaphthalen-1-ol core from 2-bromobenzaldehyde + allyl alcohol
+O=CC1=CC=CC=C1Br.C=CCO>>OC1=CC=CC2=C1CCC2
+
+/// 2. Reduce benzylic position and deprotect to give 3,4-dihydronaphthalen-1-ol
+OC1=CC=CC2=C1CCC2>>OC1=CC=CC2=CC(C)CC2
+
+/// 3. Introduce dimethylaminoethyl side chain via Mannich-type addition on aromatic ring
+OC1=CC=CC2=CC(C)CC2.CNCCN.C=O>>CN(CC2)CC3[C@H](CC4=C1C=C(O)C=C4)CCCC3
+
+/// 4. Stereoselective cyclization to form bridged bicyclic system with defined stereocenters
+CN(CC2)CC3[C@H](CC4=C1C=C(O)C=C4)CCCC3>>[C@]134[C@@H]([C@H](CC2=C1C=C(O)C=C2)N(C)CC3)CCCC4
+```"
+"Plan the best possible route for `[C@]2(C1=CC(=CC=C1)O)([C@H](CN(C)CC2)C)CCC` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",1.0081508159637451,"```smiles
+CC(CN(C)CC1CCCCC1)C.O=C=O>>[C@]2(C1=CC(=CC=C1)O)([C@H](CN(C)CC2)C)CCC
+```"
+"Plan the best possible route for `[Na+].Cn1nnnc1SCC2=C(N3[C@H](SC2)[C@H](NC(=O)CSC(F)(F)F)C3=O)C([O-])=O` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.0171589851379395,"```
+O=C1NC(=O)C(=O)N1.NNn1ccnc1C>>Cn1nnnc1C
+```
+
+``` 
+Cn1nnnc1C.O=C(O)CSCC1=CC(=O)SC1C(=O)O>>Cn1nnnc1SCC2=C(N3[C@H](SC2)[C@H](NC(=O)CSC(F)(F)F)C3=O)C([O])=O
+```
+
+``` 
+Cn1nnnc1SCC2=C(N3[C@H](SC2)[C@H](NC(=O)CSC(F)(F)F)C3=O)C([O])=O.[Na+]>>[Na+].Cn1nnnc1SCC2=C(N3[C@H](SC2)[C@H](NC(=O)CSC(F)(F)F)C3=O)C([O-])=O
+```"
+"Plan the best possible route for `c1(ccc(c(c1)Cl)Cl)CC(N1[C@H](C[C@]2(CC1)NC(NC2=O)=O)CN1CCCC1)=O` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",2.715341091156006,"```smiles
+O=CCl.NCCN1CCCC1>O=C[NH]C(CCl)N1CCCC1
+```
+
+```smiles
+O=C=NCCCl>ClCCNC=O
+```
+
+```smiles
+ClCCNC=O.O=C[NH]C(CCl)N1CCCC1>O=C(NCCCl)NCC(=O)N1CCCC1
+```
+
+```smiles
+NC(=O)CCl>NC(=O)CBr
+```
+
+```smiles
+NC(=O)CBr.NCc1c(Cl)cccc1Cl>NC(=O)C(CCc1c(Cl)cccc1Cl)NC=O
+```
+
+```smiles
+NC(=O)C(CCc1c(Cl)cccc1Cl)NC=O>NC(=O)[C@@H](CCc1c(Cl)cccc1Cl)NC=O
+```
+
+```smiles
+NC(=O)[C@@H](CCc1c(Cl)cccc1Cl)NC=O.O=C(NCCCl)NCC(=O)N1CCCC1>c1(ccc(c(c1)Cl)Cl)CC(N1[C@H](C[C@]2(CC1)NC(NC2=O)=O)CN1CCCC1)=O
+```"
+"Plan the best possible route for `c1ccc2Oc3c(cc(cc3)Cl)[C@@H]3[C@@H](c2c1)C[N@](CC3)C` considering all the following safety and cost metrics: carcinogenicity, pyrophoricity, GHS statements, total price for 1g of each starting material, and route length.",3.6203670501708984,"```
+/// Step 1: N‑Boc protection of 1,2,3,4‑tetrahydroisoquinoline
+C1CNCC2=CC=CC=C12.O=C(OC(C)(C)C)N>>CC(C)(C)OC(=O)N[C@@H]1CCN2CC3=CC=CC=C3C2=C1
+
+/// Step 2: Oxidation to the corresponding N‑Boc iminium (formal, sets up for arylation)
+CC(C)(C)OC(=O)N[C@@H]1CCN2CC3=CC=CC=C3C2=C1>>CC(C)(C)OC(=O)N=C1CCN2CC3=CC=CC=C3C2=C1
+
+/// Step 3: Friedel–Crafts-type arylation with 4‑chlorophenol to install the phenoxyaryl unit
+CC(C)(C)OC(=O)N=C1CCN2CC3=CC=CC=C3C2=C1.ClC1=CC=C(O)C=C1>>
+CC(C)(C)OC(=O)N[C@@H]1CCN2C[C@@H]3Oc4cc(Cl)ccc4C[C@@H]3C2=C1
+
+/// Step 4: Deprotection of Boc to give the target tertiary amine
+CC(C)(C)OC(=O)N[C@@H]1CCN2C[C@@H]3Oc4cc(Cl)ccc4C[C@@H]3C2=C1>>
+c1ccc2Oc3c(cc(cc3)Cl)[C@@H]3[C@@H](c2c1)C[N@](CC3)C
+```"

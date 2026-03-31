@@ -1,0 +1,269 @@
+Chemical Name,SMILES
+acetic acid bromide,CC(=O)Br
+acetic acid chloride,CC(=O)Cl
+acetyl bromide,CC(=O)Br
+acetyl chloride,CC(=O)Cl
+acetyl peroxide,CC(=O)OOC(=O)C
+aluminum,[Al]
+aluminum borohydride,[Al]([B])([B])[B]
+aluminum hydride,[AlH3]
+aluminum phosphide,[Al]#P
+amyl trichlorosilane,CCCCC[Si](Cl)(Cl)Cl
+anisic acid chloride,COC1=CC=C(C=C1)C(=O)Cl
+anisoyl chloride,COC1=CC=C(C=C1)C(=O)Cl
+antimony pentachloride,Cl[Sb](Cl)(Cl)(Cl)Cl
+antimony triethyl,CC[Sb](CC)CC
+antimony trimethyl,C[Sb](C)C
+arsenic trichloride,Cl[As](Cl)Cl
+arsenic triethyl,CC[As](CC)CC
+arsenic trimethyl,C[As](C)C
+barium,[Ba]
+barium azide,[N-]=[N+]=[N][Ba][N]=[N+]=[N-]
+barium peroxide,O[Ba]O
+barium sulfide,[S][Ba]
+benzoyl chloride,C1=CC=C(C=C1)C(=O)Cl
+benzoyl chloride,O=C(Cl)c1ccccc1
+beryllium,[Be]
+beryllium borohydride,[Be]([B])[B]
+beryllium hydride,[BeH2]
+bismuth,[Bi]
+boron,[B]
+boron tribromide,B(Br)(Br)Br
+boron triethyl,B(CC)(CC)CC
+boron trimethyl,B(C)(C)C
+bromine pentafluoride,FBr(F)(F)(F)F
+bromoacetylene,C#CBr
+bromoethyne,C#CBr
+bromosilane,[Si]Br
+butadiene,C=CC=C
+butyl lithium,[Li]CCCC
+cacodyl,C[As](C)[As](C)C
+cacodyl chloride,C[As](C)Cl
+cacodyl sulfide,C[As](C)S[As](C)C
+cadmium,[Cd]
+calcium,[Ca]
+calcium hydride,[CaH2]
+calcium hypochlorite,[Ca](OCl)OCl
+calcium nitride,[Ca](N=[Ca])N=[Ca]
+calcium phosphide,[Ca]=P[Ca]P=[Ca]
+calcium sulfide,[Ca]=S
+carbon disulfide,C(=S)=S
+carbon hexachloride,C(C(Cl)(Cl)Cl)(Cl)(Cl)Cl
+cerium,[Ce]
+cerium nitride,N#[Ce]
+cesium,[Cs]
+cesium hydride,[CsH]
+cesium oxide,[Cs][OH][Cs]
+charcoal,[C]
+chlorine trifluoride,FCl(F)F
+chloroacetylene,C#CCl
+chloroethyne,C#CCl
+chlorosulfonic acid,OS(=O)(=O)Cl
+chromium,[Cr]
+chromyl chloride,[Cr](O)(O)(Cl)Cl
+cobalt,[Co]
+cobalt abietate,CC(C1=CC2=CCC3C(CCCC3(C(C)=O)C)(O[Co]OC(C4CC5)(CCCC6(C(C)=O)C)C6CC=C4C=C5C(C)C)C2CC1)C
+copper,[Cu]
+deuterium,[HH]
+diacetylene,C#CC#C
+diborane,BB
+dibutyl magnesium,CCC[CH2][Mg][CH2]CCC
+diethyl aluminum chloride,CC[Al][Cl]CC
+diethyl arsine,CC[As]CC
+diethyl cadmium,C[CH2][Cd][CH2]C
+diethyl dichlorosilane,CC[Si](CC)(Cl)Cl
+diethyl zinc,CC[Zn]CC
+diisobutyl aluminum chloride,CC(C)C[Al](CC(C)C)Cl
+dimethylchloroarsine,C[As](C)Cl
+dimethyl dichlorosilane,C[Si](C)(Cl)Cl
+dimethyl magnesium,C[Mg]C
+diphosphine,PP
+disilane,[Si]#[Si]
+disulfur dinitride,N1=S=NS1
+ethanoyl bromide,CC(=O)Br
+ethanoyl chloride,CC(=O)Cl
+ethylaluminum dichloride,CC[Al](Cl)Cl
+2-ethylhexaldehyde,CCCCC(CC)C=O
+ethyl lithium,[Li]CC
+ethyl nitrite,CCON=O
+ethyl trichlorosilane,CC[Si](Cl)(Cl)Cl
+europium,[Eu]
+ferrous oxide,O=[Fe]
+germanium hydride,[GeH4]
+germanium tetrahydride,[GeH4]
+hafnium,[Hf]
+hydrogen phosphide,P
+iron,[Fe]
+iron hydroxide,[Fe][OH]
+iron pentacarbonyl,O#C[Fe](C#O)(C#O)(C#O)C#O
+lead,[Pb]
+lithium,[Li]
+lithium aluminum deuteride,[Li][AlH4]
+lithium aluminum hydride,[Li][AlH4]
+lithium amide,[Li][NH2]
+lithium dimethylamide,[Li]N(C)C
+lithium hydride,[LiH]
+lithium hypochlorite,[Li]OCl
+magnesium,[Mg]
+magnesium diamide,[Mg]([NH2])[NH2]
+magnesium diethyl,CC[Mg]CC
+magnesium diphenyl,C1([Mg]C2=CC=CC=C2)=CC=CC=C1
+magnesium hydride,[MgH2]
+magnesium phosphide,[Mg]=P[Mg]P=[Mg]
+manganese,[Mn]
+manganese heptoxide,O=[Mn](=O)(O[Mn](=O)(=O)=O)=O
+methyl aluminum sesquibromide,C[Al](C)Br.C[Al](Br)Br
+methyl copper,[CH3][Cu]
+methyl lithium,[Li]C
+methyl trichlorosilane,C[Si](Cl)(Cl)Cl
+molybdenum,[Mo]
+molybdenum dioxide,O=[Mo]=O
+molybdenum trioxide,O=[Mo](=O)=O
+monomethylhydrazine,CNN
+nickel,[Ni]
+nickel carbonyl,[Ni](C#O)(C#O)(C#O)C#O
+"O-O-dimethyl thiophosphoryl chloride",COP(=S)(OC)Cl
+oleum,OS(=O)(=O)O.O=S(=O)=O
+oxosilane,O=[SiH2]
+pentaborane,[BH]123[BH]456[BH]17([BH]28([BH]34([H]5)[H]8)[H]7)[H]6
+perchloroethane,C(C(Cl)(Cl)Cl)(Cl)(Cl)Cl
+phenyl lithium,C1=CC=[C]([Li])C=C1
+phenylsilver,C1=CC=[C]([Ag])C=C1
+phosphine,P
+phosphorus,[P]
+phosphorus oxychloride,O=P(Cl)(Cl)Cl
+phosphorus pentachloride,P(Cl)(Cl)(Cl)(Cl)Cl
+phosphorus pentasulfide,P12(=S)SP3(=S)SP(=S)(S1)SP(=S)(S2)S3
+phosphorus sesquisulfide,P12P3P1SP(S2)S3
+phosphorus trichloride,P(Cl)(Cl)Cl
+phosphorus trioxide,O=POP=O
+plutonium,[Pu]
+plutonium hydride,[PuH2]
+potassium,[K]
+potassium chlorate,[K][O]Cl(=O)=O
+potassium hydride,[KH]
+potassium peroxide,[K]OO[K]
+potassium sulfide,[K][S][K]
+pyridinium perchlorate,C1=CC=NC=C1.OCl(=O)(=O)=O
+rubidium,[Rb]
+rubidium hydride,[RbH]
+silane,[SiH4]
+silicon,[Si]
+silicon carbide,[C-]#[Si+]
+silicon hydride,[SiH4]
+silicon monoxide,O=[Si]
+silver,[Ag]
+sodium,[Na]
+sodium acetate,CC(=O)[O][Na]
+sodium aluminum hydride,[Na][AlH4]
+sodium amalgam,[Na][Hg]
+sodium amide,[NH2][Na]
+sodium hydrazide,N[NH][Na]
+sodium hydride,[NaH]
+sodium hydrosulfite,[Na][O]S(=O)S(=O)[O][Na]
+sodium hypochlorite,[Na][O]Cl
+sodium methylate,C[O][Na]
+sodium phosphide,P([Na])([Na])[Na]
+sodium sulfide,[Na]S[Na]
+stannic phosphide,P#[Sn]
+stearic acid,CCCCCCCCCCCCCCCCCC(=O)O
+strontium,[Sr]
+strontium azide,[N-]=[N+]=[N][Sr][N]=[N+]=[N-]
+styrene oxide,C1C(O1)C2=CC=CC=C2
+sulfur,[S]
+sulfur trioxide,O=S(=O)=O
+sulfuryl chloride,O=S(=O)(Cl)Cl
+tetrabromosilane,[Si](Br)(Br)(Br)Br
+tetramethyl silane,C[Si](C)(C)C
+thiophosphoryl fluoride,FP(=S)(F)F
+thorium,[Th]
+thorium hydride,[Th+4]
+tin,[Sn]
+tin tetrachloride,Cl[Sn](Cl)(Cl)Cl
+titanium boride,B1=[Ti]=B1
+titanium dichloride,Cl[Ti]Cl
+titanium diiodide,[Ti](I)I
+titanium monoxide,O=[Ti]
+titanium trichloride,Cl[Ti](Cl)Cl
+tribromosilane,[Si](Br)(Br)Br
+tributyl phosphine,CCCCP(CCCC)CCCC
+trichlorosilane,[SiH](Cl)(Cl)Cl
+tridecanal,CCCCCCCCCCCCC=O
+tridecyl aldehyde,CCCCCCCCCCCCC=O
+triethyl aluminum,CC[Al](CC)CC
+trimethyl aluminum,C[Al](C)C
+trimethyl bismuth,C[Bi](C)C
+trimethyl borine,B(C)(C)C
+trimethyl chlorosilane,C[Si](C)(C)Cl
+trimethyl phosphine,CP(C)C
+trimethyl thallium,C[Tl](C)C
+trimethylbismuthine,C[Bi](C)C
+tripropylaluminum,CCC[Al](CCC)CCC
+trisilylamine,N([SiH3])([SiH3])[SiH3]
+tritium,[HH]
+tungsten,[W]
+uranium,[U]
+uranium carbide,C[U]
+uranium hydride,[UH6]
+uranium monocarbide,[U]C
+uranium nitride,N#[U]
+uranium oxide,O=[U](=O)=O
+vanadium sesquioxide,O=[V]O[V]=O
+vinyl trichlorosilane,C=C[Si](Cl)(Cl)Cl
+zinc,[Zn]
+zinc dimethyl,[CH3][Zn][CH3]
+zirconium,[Zr]
+zirconium borohydride,[BH4][Zr]([BH4])([BH4])([BH4])
+zirconium dibromide,Br[Zr]Br
+"benzene-1-2-epoxyethyl",C1C(O1)C2=CC=CC=C2
+barium carbide,C[Ba]C
+chlorodimethyl arsine,C[As](C)Cl
+dimethyl arsine,C[AsH]C
+dimethyl beryllium,[CH3][Be][CH3]
+dimethyl cadmium,[CH3][Cd][CH3]
+dimethyl manganese,[CH3][Mn][CH3]
+dimethyl phosphine,CPC
+potassium carbide,C#[C][K]
+sodium carbide,C#[C][Na]
+unsymmetrical dimethyl hydrazine,CN(C)N
+cacodyl iodide,C[As](C)I
+benzyl silane,C1=CC=C(C=C1)C[SiH3]
+benzyl sodium,[Na][CH2]C1=CC=CC=C1
+diethyl beryllium,C[CH2][Be][CH2]C
+diethyl phosphine,CCPCC
+diisobutyl aluminum hydride,CC(C)C[AlH]CC(C)C
+di-n-propyl zinc,CC[CH2][Zn][CH2]CC
+divinyl zinc,C=C[Zn]C=C
+ethyl methyl arsine,CC[As]C
+ethyl sodium,C[CH2][Na]
+azido thallium,[N-]=[N+]=[N][Tl]
+iron sulfide,S=[Fe]
+lithium borohydride,[Li][BH4]
+methylene magnesium,C=[Mg]
+methyl phosphine,CP
+methyl sodium,[CH3][Na]
+p -nitrosophenol,C1=CC(=CC=C1N=O)O
+n -propyl lithium,[Li]CCC
+propyl silane,CCC[Si]
+silyl phosphine,[Si]P
+tetramethyl diarsine,C[As](C)[As](C)C
+triethyl bismuth,CC[Bi](CC)CC
+triethyl borine,B(CC)(CC)CC
+triethyl indium,CC[In](CC)CC
+triethyl stibine,CC[Sb](CC)CC
+trifluoromethyl phosphine,C(F)(F)(F)P
+trimethyl arsine,C[As](C)C
+trimethyl boron,B(C)(C)C
+trimethyl gallium,C[Ga](C)C
+trimethyl indium,C[In](C)C
+tripropyl antimony,CCC[Sb](CCC)CCC
+tripropyl indium,CCC[In](CCC)CCC
+trisilyl phosphine,[Si]P([Si])[Si]
+tris-trifluoromethyl phosphine,C(F)(F)(F)P(C(F)(F)F)C(F)(F)F
+trivinyl stibine,C=C[Sb](C=C)C=C
+diethyl aluminum bromide,CC[Al](CC)Br
+diethyl boron chloride,B(CC)(CC)Cl
+ethyl aluminum sesquichloride,CC[Al](CC)Cl.CC[Al](Cl)Cl
+ethyl boron dichloride,B(CC)(Cl)Cl
+lithium tetramethyl borate,[Li][B](C)(C)(C)C
+methyl aluminum sesquichloride,C[Al](C)Cl.C[Al](Cl)Cl

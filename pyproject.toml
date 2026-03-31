@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "mmorf"
+version = "0.1.0"
+description = "Framework for designing MAS for multi-objective retrosynthesis"
+authors = ["Frazier N. Baker <baker.3239@buckeyemail.osu.edu>"]
+license = "All rights reserved"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+# Dependencies will be read from requirements.txt
+rdkit = "^2024.3.2"
+anthropic = "0.40.0"
+openai = "1.55.0"
+requests = "2.32.3"
+pandas = "2.1.0"
+transformers = "4.49.0"
+numpy = "1.26.4"
+tqdm="4.64.1"
+dotenv="0.9.9"
+admet-ai = "1.3.1"
+
+[build-system]
+requires = ["poetry-core>=1.8.5"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+# Define any CLI scripts here if needed
+
+[tool.poetry.dev-dependencies]
+# No additional development dependencies specified

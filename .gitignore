@@ -1,0 +1,9 @@
+mmorf/saved_model/policy_model.ckpt
+mmorf/saved_model/template_rules.dat
+mmorf/saved_model/value_pc.pt
+mmorf/prepare_data/origin_dict.csv
+mmorf/prepare_data/purch_cost.json.gz
+mmorf/prepare_data/purch_cost.json
+*.yml
+my.env
+mmorf_largefiles.zip
