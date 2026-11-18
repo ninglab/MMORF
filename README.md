@@ -25,7 +25,7 @@ prepare_data/purch_cost.json
 3. Install Python 3.11.1, then run the following commands from the project root:
 ```
 pip install -e .
-cd mmorf && install -e rdchiral && cd ..
+cd mmorf && pip install -e rdchiral && cd ..
 ```
 
 4. Setup environment variables in `.env`.  To use Claude, you will need to specify an Anthropic API Key.
