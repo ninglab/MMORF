@@ -11,7 +11,7 @@ class Qwen30BInstruct(LLM):
     def get_response(self, messages, retry=True, **kwargs):
         client = OpenAI(
             api_key=os.environ.get("VLLM_API_KEY", None),
-            base_url=f"http://{os.environ.get("VLLM_URL","localhost")}:{os.environ.get('VLLM_PORT',7773)}/v1"
+            base_url=f"http://{os.environ.get('VLLM_URL','localhost')}:{os.environ.get('VLLM_PORT',7773)}/v1"
         )
         # while self.timestamp > (time.time() - 30):
         #     time.sleep(10)
@@ -44,7 +44,7 @@ class KimiK2Thinking(LLM):
     def get_response(self, messages, retry=True, **kwargs):
         client = OpenAI(
             api_key=os.environ.get("VLLM_API_KEY", None),
-            base_url=f"http://{os.environ.get("VLLM_URL","localhost")}:{os.environ.get('VLLM_PORT',7773)}/v1"
+            base_url=f"http://{os.environ.get('VLLM_URL','localhost')}:{os.environ.get('VLLM_PORT',7773)}/v1"
         )
         # while self.timestamp > (time.time() - 30):
         #     time.sleep(10)
@@ -72,7 +72,7 @@ class MistralNemo12B(LLM):
     def get_response(self, messages, retry=True, **kwargs):
         client = OpenAI(
             api_key=os.environ.get("VLLM_API_KEY", None),
-            base_url=f"http://{os.environ.get("VLLM_URL","localhost")}:{os.environ.get('VLLM_PORT',7773)}/v1"
+            base_url=f"http://{os.environ.get('VLLM_URL','localhost')}:{os.environ.get('VLLM_PORT',7773)}/v1"
         )
         # while self.timestamp > (time.time() - 30):
         #     time.sleep(10)
